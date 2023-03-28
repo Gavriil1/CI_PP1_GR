@@ -21,13 +21,13 @@
                     <a href="booking.html">Bookings&Deliveries</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
                     <a href="menu.html">Menu</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 
                 
@@ -35,53 +35,22 @@
             </ul>
         </nav>
     </header>
-
-    <section>
-      <br><br><br><br>
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9528.440775488236!2d-6.282272423419133!3d53.34128361172127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9c903932bd%3A0xa583d9e2db00d158!2sTrocadero%20Restaurant%20Dublin!5e0!3m2!1sen!2sie!4v1679912018879!5m2!1sen!2sie" width="900" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div>
-        <div >
-            Delivery
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="cover-text">
+            <h2>Enjoy Greek Cusine</h2>
+            <h3>In a center of Dublin</h3>
         </div>
-        <a href="https://deliveroo.ie" >
-            Deliveroo</a> | <a href="https://justeat.ie" class="link mb-35 f-42 bold color-main text_big">Just Eat
-        </a>
-    </div>
-    
-    <div class="container">
-      <div style="text-align:center">
-        <h2>Contact Us</h2>
-        <p>Swing by for a cup of coffee, or leave us a message:</p>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="/w3images/map.jpg" style="width:100%">
-        </div>
-        <div class="column">
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-      </div>
-    </div>
-
-
-
     </section>
-
+    <section>
+        <h1>Why you should visit our lovely and superb restaurant</h1>
+        <div><p>Paragraph 1 </p></div>
+        <div><p>Paragraph two </p></div>
+        <div><p>Paragraph three</p></div>
+    </section>
+    <section>
+        Running locations, distances and times
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
