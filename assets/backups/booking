@@ -8,36 +8,6 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Gree Restaurant</title>
-<style>
-
-    .float-container {
-      border: 3px solid #fff;
-      padding: 20px;
-      display: flex;
-    }
-
-    .float-child1 {
-        max-width: 100%;
-        max-height:100%;
-    }  
-
-    .float-child2 {
-       width: 50%;
-       float: center;
-        padding: 20px;
-        border: 2px solid red;
-    }
-
-    /*delivery option */
-    .parent{}
- .first{color:red;
-        font-size:20px;
- }
- .link {font-size:40px;}
-
-</style>
-</style> 
-
 </head>
 <body>
     <header>
@@ -69,52 +39,44 @@
     <section>
       <br><br><br><br>
 
-      <div class="float-container">
-
-        <div class="float-child1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5397.19719007497!2d28.2213511046334!3d36.452900330408525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149561e6ce00c411%3A0x5004eaf0ee0e0b1d!2sMeltemi!5e0!3m2!1sen!2sie!4v1680020941134!5m2!1sen!2sie" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9528.440775488236!2d-6.282272423419133!3d53.34128361172127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9c903932bd%3A0xa583d9e2db00d158!2sTrocadero%20Restaurant%20Dublin!5e0!3m2!1sen!2sie!4v1679912018879!5m2!1sen!2sie" width="900" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div>
+        <div >
+            Delivery
         </div>
-         
-        <div class="float-child2">
-            <div class=parent>
-                <div class=first>
-                Delivery:
-                </div>
-                <a class=link href="https://deliveroo.ie" class="link mb-35 f-42 bold color-main text_big"> Deliveroo </a> |
-                <a class=link href="https://justeat.ie" class="">Just Eat</a>
-            </div>
-            <div>
-                <h1> Phone number</h1>
-            </div>
-            <div> 
-                <h2>HTML Forms</h2>
-
-            <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-            </form> 
-
-            <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-            </div>
-        </div>
-        
+        <a href="https://deliveroo.ie" >
+            Deliveroo</a> | <a href="https://justeat.ie" class="link mb-35 f-42 bold color-main text_big">Just Eat
+        </a>
+    </div>
+    
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
       </div>
-
-
-      <div class=parent>
-        <div class=first>
-        Delivery:
+      <div class="row">
+        <div class="column">
+          <img src="/w3images/map.jpg" style="width:100%">
         </div>
-        <a class=link href="https://deliveroo.ie" class="link mb-35 f-42 bold color-main text_big"> Deliveroo </a> | <a class=link href="https://justeat.ie" class="">Just Eat
-                                                                    </a>
-                                                                </div>
-    </section>
-    
-    
-
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
 
 
 
