@@ -44,6 +44,17 @@
  font-size:20px;
  }
 
+/*phorm CSS*/
+.signup-form {
+    margin: 50px 5% 0 0;
+    color: #fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+ 
+    padding: 10px;
+}
+
 </style>
 </style> 
 
@@ -100,17 +111,22 @@
                 <a class=link href="tel:+302241036535" >+30 2241 036535</a>
             </div>
             <div> 
-                <h2>HTML Forms</h2>
+                
 
-            <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-            </form> 
-
-            <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" class="text-input" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" class="text-input" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required>
+                    
+        
+                    <input class="join-button" type="submit" value="Let's Run!">
+            
             </div>
         </div>
         
