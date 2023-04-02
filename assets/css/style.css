@@ -14,24 +14,28 @@ body {
 
 
 /* headings and logo */
-
+/*
 h1, h2 {
     font-family: Oswald, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 4px; 
     color: #252525;
 }
-
+*/
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px; 
+    color: #252525;
 }
 
 /* navigation links */
 #menu {
     font-size: 110%
     letter-spacing: 4px;
+    
 }
 
 #menu, #logo {
@@ -41,7 +45,8 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 25px;
+    
 }
 
 menu a {
@@ -58,7 +63,7 @@ menu a {
 }
 
 /* hero-image */
-
+/*
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -70,18 +75,22 @@ menu a {
 #cover-text, #cover-text h2 {
     color: #fff;
 }
-
+*/
+/*
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/Greek-food-and-fish-with-sea-views.avif) no-repeat center center;
-    /*animation zoom effect on loading page*/
+    
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+*/
+
 
 /* creates the level of zoom for hero image */
+/*
 @jetfranes hero-zoom {
     from{
         transform: scale(1);
@@ -90,11 +99,11 @@ menu a {
         transform: scale(1);
     }
 }
-
+*/
+/*
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 300px;
@@ -110,7 +119,7 @@ menu a {
 
     position:absolute;
 }
-
+*/
 
 /* footer */
 
@@ -151,9 +160,91 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos
+/* responsive design */
+
+.wrapper {
+    width: 100%;
+    float: left;
+    clear:left;
+}
+
+
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 0px 30px 20px;;
+    font-family: arial;
+    font-size: 50 px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-info p {
+    padding:0px 30px 20px;
+    font-family: arial;
+    font-size: 16 px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-me {
+    width: 100%;
+    padding-top: 30px;
+}
+
+#menu{
+		clear: left;
+		float: left;
+        
+        padding: 0 0px ;
+        margin: 0px 0px 0px 29px;
+        font-size: 10px ;
+	}
+
+@media only screen and (min-width:768px) {
+
+     .wrapper {
+        width: 100%;
+        float: left;
+        clear:left;
+        
+        
+    }
+
+    .img-info h2 {
+
+
+        padding: 0px 30px 20px;;
+        font-family: arial;
+        font-size: 50 px;
+        color: #111;
+        line-height: 24px
+    }
+    
+    .img-info p {
+        padding:0px 30px 20px;
+        font-family: arial;
+        font-size: 16 px;
+         color: #111;
+         line-height: 24px;
+
+    }
+
+    .img-me {
+        padding-top: 30px;
+    }
+
+	#menu{
+		clear: left;
+		float: left;
+ 
+        padding: 0 0px ;
+        margin: 0px 0px 0px 29px;
+        font-size: 10px ;
+	}
 }
 
 
@@ -164,4 +255,53 @@ footer {
 
 
 
-/* booking page */
+
+@media only screen and (min-width:1000px) {
+    #menu{
+		clear: none;
+		float: right;
+	}
+
+  .wrapper {
+    width: 80%;
+    clear:both;
+    
+  }
+  .img-info  {
+    width: 50%;
+    float: right;
+   }
+  .img-me {
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+    
+    
+ }
+  
+ .img-info h2 {
+    padding:20px 0px 0px 30px;
+    font-family: arial;
+    font-size: 50 px;
+    color: #111;
+    line-height: 24px
+    
+}
+
+}
+
+.img-info p {
+    padding:20px 0px 0px 30px;
+
+}
+
+/* footer work */
+
+.divfooter {
+    bottom: 0;
+    color: #707070;
+    left: 0;
+    position: relative;
+    clear:both;
+    width:100%;
+}
