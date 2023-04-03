@@ -158,10 +158,7 @@ footer {
     width: 100%;
 }
 
-/* Media queries */
-
-/* responsive design */
-
+/* first page classes */
 .wrapper {
     width: 100%;
     float: left;
@@ -204,6 +201,10 @@ footer {
         font-size: 10px ;
 	}
 
+
+
+
+/* responsive design media queries */
 @media only screen and (min-width:768px) {
 
      .wrapper {

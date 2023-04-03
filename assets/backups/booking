@@ -6,8 +6,100 @@
     <meta name="description" content="Love Running club for runners in Dublin, Ireland">
     <meta name="keywords" content="love running, running club, ireland, dublin">
 
+    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Gree Restaurant</title>
+<style>
+
+    .float-container {
+      border: 3px solid #fff;
+      padding: 20px;
+      /* display: flex; */
+  
+    }
+
+    .float-child1 {
+        max-width: 100%;
+        max-height:100%;
+    }  
+
+    .float-child2 {
+       width: 100%;
+       /* float: center; */
+              * padding: 20px; *
+              max-width: 100%;
+        max-height:100;
+        clear:left;
+       /* border: 2px solid red; */
+        
+    }
+
+    /*delivery option */
+    .parent{}
+ .first{color:red;
+        font-size:20px;
+ }
+ .link {font-size:40px;}
+
+ .phoneparent{background-color:#f44336;
+ color: white;
+ padding: 10px 3px;
+ text-align: left;
+ text-decoration: none;
+ display: inline-block;
+ font-size:20px;
+ }
+
+/*phorm CSS*/
+.signup-form {
+
+    color: #fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    padding: 10px;
+}
+
+form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+
+.text-input:hover {
+    border: #f16c6b;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}  
+
+.join-button:hover{
+    background-color:#fafafa;
+    color: #f16c6b;
+}
+</style>
+</style> 
+
 </head>
 <body>
     <header>
@@ -39,50 +131,70 @@
     <section>
       <br><br><br><br>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9528.440775488236!2d-6.282272423419133!3d53.34128361172127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9c903932bd%3A0xa583d9e2db00d158!2sTrocadero%20Restaurant%20Dublin!5e0!3m2!1sen!2sie!4v1679912018879!5m2!1sen!2sie" width="900" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div>
-        <div >
-            Delivery
+      <div class="float-container">
+
+        <div>
+            <h2>BOOKINGS, DELIVERIES & TAKEOUT</h2>
+            <p>We are pleased to provide you with a delivery and takeout service while Covid restrictions are in place. Call us directly to order from OUR TAKEOUT MENU or you can order via Deliveroo or Just Eat </p>
         </div>
-        <a href="https://deliveroo.ie" >
-            Deliveroo</a> | <a href="https://justeat.ie" class="link mb-35 f-42 bold color-main text_big">Just Eat
-        </a>
-    </div>
-    
-    <div class="container">
-      <div style="text-align:center">
-        <h2>Contact Us</h2>
-        <p>Swing by for a cup of coffee, or leave us a message:</p>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="/w3images/map.jpg" style="width:100%">
+
+        <div class="float-child1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5397.19719007497!2d28.2213511046334!3d36.452900330408525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149561e6ce00c411%3A0x5004eaf0ee0e0b1d!2sMeltemi!5e0!3m2!1sen!2sie!4v1680020941134!5m2!1sen!2sie" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="column">
-          <form action="/action_page.php">
+
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Send us an email!<i class="fa fa-envelope-o" aria-hidden="true"></i>></h2>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit">
-          </form>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email_address" class="text-input" required>
+
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="6" name="message" required></textarea>
+         
+            <br>
+            <input class="join-button" type="submit" value="Send Email">
+        </form>
+
+         
+        <div class="float-child2">
+            <div class=parent>
+                <div class=first>
+                Delivery:
+                </div>
+                <a class=link href="https://deliveroo.ie" class="link mb-35 f-42 bold color-main text_big"> Deliveroo </a> |
+                <a class=link href="https://justeat.ie" class="">Just Eat</a>
+            </div>
+            <br>
+            <div class=phoneparent>
+                <div>
+                Booking & TakeOut
+                </div>
+                <a class=link href="tel:+302241036535" >+30 2241 036535</a>
+            </div>
+            <div> 
+               
+            </div>
         </div>
+        
       </div>
-    </div>
 
 
 
     </section>
+    
+    <section>
+       
+
+    </section>
+
 
     <footer>
+        <div class="divfooter">
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -101,73 +213,9 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
+    </div>
     </footer>
        <!-- font awesome script -->
        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-------------
----------------
-Old form 
-/* Style inputs */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
