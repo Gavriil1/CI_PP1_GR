@@ -160,37 +160,6 @@ footer {
 }
 
 /* first page classes */
-/* Style the container/contact section */
-.containerhome {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    clear:both
-  }
-  
-  /* Create two columns that float next to eachother */
-  .columnhome {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .rowhome:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .columnhome {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-/*
 .wrapper {
     width: 100%;
     float: left;
@@ -223,7 +192,6 @@ footer {
     width: 100%;
     padding-top: 30px;
 }
-*/
 
 #menu{
 		clear: left;
@@ -333,7 +301,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: white;
     padding: 10px;
-    clear:both;
   }
   
   /* Create two columns that float next to eachother */
@@ -361,7 +328,7 @@ input[type=text], select, textarea {
 
 /* responsive design media queries */
 @media only screen and (min-width:768px) {
-/*
+
      .wrapper {
         width: 100%;
         float: left;
@@ -392,7 +359,7 @@ input[type=text], select, textarea {
     .img-me {
         padding-top: 30px;
     }
-*/
+
 	#menu{
 		clear: left;
 		float: left;
@@ -418,7 +385,6 @@ input[type=text], select, textarea {
 		float: right;
 	}
 
-  /*
   .wrapper {
     width: 80%;
     clear:both;
@@ -451,7 +417,7 @@ input[type=text], select, textarea {
     padding:20px 0px 0px 30px;
 
   }
-*/
+
   /*menu page */
   .menu-page {
     font-size: 16px;

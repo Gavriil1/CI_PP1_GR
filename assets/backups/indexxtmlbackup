@@ -203,3 +203,20 @@ backup 3
        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+<br><br>  <br><br>  <br><br>
+                    
+<div class="wrapper">
+    <article class="img-info">
+        
+
+    <h2>Authentic Greek Cuisine in the hear of Rhodes</h2>
+
+    <p>At RODOS Taverna we aim to provide an extraordinary Mediterranean dining experience through exceptional service and a very relaxed Mediterranean atmosphere.</p>
+    </article>
+
+    <img class="img-me" src="assets/images/Greek-food-and-fish-with-sea-views.avif" alt="Nice View">
+</div>
