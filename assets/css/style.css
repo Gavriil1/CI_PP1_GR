@@ -190,6 +190,22 @@ footer {
       margin-top: 0;
     }
   }
+
+  .img-info h2 {
+    padding: 0px 30px 20px;;
+    font-family: arial;
+    font-size: 50 px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-info p {
+    padding:0px 30px 20px;
+    font-family: arial;
+    font-size: 16 px;
+    color: #111;
+    line-height: 24px;
+}
 /*
 .wrapper {
     width: 100%;

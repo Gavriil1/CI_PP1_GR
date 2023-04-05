@@ -13,14 +13,28 @@
 
     <style>
 
-
-
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
 #menunav{
   background: #0082e6;
   height: 80px;
   width: 100%;
 }
-
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
 #menunav ul{
   float: right;
   margin-right: 20px;
@@ -30,24 +44,17 @@
   line-height: 80px;
   margin: 0 5px;
 }
-#menunav ul li a{
+nav ul li a{
   color: white;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
 }
-.active.active{
+.menulist.active,.menulist:hover{
   background: #1b9bff;
   transition: .5s;
 }
-
-.menuelink:hover{
-  background: #1b9bff;
-  transition: .5s;
-}
-
-
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -65,7 +72,7 @@
     font-size: 30px;
     padding-left: 50px;
   }
-  #menunav ul li a{
+  nav ul li a{
     font-size: 16px;
   }
 }
@@ -73,7 +80,7 @@
   .checkbtn{
     display: block;
   }
-  #menuul{
+  ul{
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -83,29 +90,23 @@
     text-align: center;
     transition: all .5s;
   }
-  #menunav ul li{
+  nav ul li{
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
-  #menunav ul li a{
+  nav ul li a{
     font-size: 20px;
   }
-  .menuelink:hover{
+  a:hover,a.active{
     background: none;
     color: #0082e6;
   }
-
-  .active.active{
-    background: none;
-    color: #0082e6;
-  }
-
-  
   #check:checked ~ ul{
     left: 0;
   }
 }
+
 
 
 
@@ -118,17 +119,16 @@
             
             <h1 id="logo">RHODES</h1>
         </a>
-        <nav>
-          <nav id="menunav">
+        <nav id="menunav">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
               <i class="fas fa-bars"></i>
             </label>
-            <ul id="menuul">
-              <li><a class="menuelink active" href="index.html">Home</a></li>
-              <li><a class="menuelink" href="menu.html">Menu</a></li>
-              <li><a class="menuelink" href="gallery.html">Gallery</a></li>
-              <li><a class="menuelink" href="booking.html">Contact</a></li>
+            <ul >
+              <li><a class="menulist" href="index.html">Home</a></li>
+              <li><a class="menulist" href="menu.html">Menu</a></li>
+              <li><a class="menulist" href="gallery.html">Gallery</a></li>
+              <li><a class="menulist" href="booking.html">Contact</a></li>
             </ul>
           </nav>
     </header>

@@ -9,13 +9,102 @@
     
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Gree Restaurant</title>
+    <title>Contact Us</title>
 <style>
 
-
-* {
-  box-sizing: border-box;
+#menunav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
 }
+
+#menunav ul{
+  float: right;
+  margin-right: 20px;
+}
+#menunav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+#menunav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.active.active{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.menuelink:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  #menunav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  #menuul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  #menunav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  #menunav ul li a{
+    font-size: 20px;
+  }
+  .menuelink:hover{
+    background: none;
+    color: #0082e6;
+  }
+
+  .active.active{
+    background: none;
+    color: #0082e6;
+  }
+
+  
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+
 
 
 
@@ -29,25 +118,18 @@
             
             <h1 id="logo">RHODES</h1>
         </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="booking.html" class="active">Bookings&Deliveries</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                
-                
-               
+        <nav id="menunav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul id="menuul">
+              <li><a class="menuelink " href="index.html">Home</a></li>
+              <li><a class="menuelink" href="menu.html">Menu</a></li>
+              <li><a class="menuelink" href="gallery.html">Gallery</a></li>
+              <li><a class="menuelink active" href="booking.html">Contact</a></li>
             </ul>
-        </nav>
+          </nav>
     </header>
 
     <section>
@@ -56,10 +138,10 @@
       <div class="container1">
         <div style="text-align:left">
             <h2>Contact Us</h2>
-            <p>Address: Meltemi, Pl. Kountourioti 8, Rodos 851 00, Greece</p>
-            <p> Phone Number:  +30 2241 036535</p>
-            <p> Email: yoyoyo@yo.com</p>
-            <P> Owner: Kleonas Trihas</P>
+            <p> Address: Meltemi, Riga. Feraiou 8, Rodos 851 00, Greece</p>
+            <p> Phone Number:  +30 2241 036632</p>
+            <p> Email: Rhodes@rhodesrestaurant.com</p>
+            <P> Owner: George Papadakis</P>
           </div>
         </div>
         <div class="row">
@@ -73,9 +155,8 @@
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
               <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
               <label for="email">Email Address</label>
-              <input type="email" id="email" name="email_address" class="text-input" required>
+              <input type="email" id="email" name="email_address" placeholder="Your Email..." required>
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
               <input type="submit" value="Submit">
@@ -97,7 +178,6 @@
 
 
     <footer>
-        <div class="divfooter">
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -116,7 +196,6 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
-    </div>
     </footer>
        <!-- font awesome script -->
        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
