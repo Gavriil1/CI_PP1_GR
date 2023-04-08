@@ -186,31 +186,25 @@ The website consists of five separate pages:
 
 <details><summary>Home</summary>
 
-<img src="">
-
-</details>
-
-<details><summary>About</summary>
-
-<img src="docs/">
+<img src="docs/wireframes/HomePageWireframe.png">
 
 </details>
 
 <details><summary>Menu</summary>
 
-<img src="docs/wireframes/nottransperent.png">
+<img src="docs/wireframes/MenuWireframe.png">
 
 </details>
 
 <details><summary>Gallery</summary>
 
-<img src="docs/wireframes/wireframes-gallery.png">
+<img src="docs/wireframes/GalleryWireFrame.png">
 
 </details>
 
 <details><summary>Contact</summary>
 
-<img src="docs/wireframes/wireframes-contact.png">
+<img src="docs/wireframes/ContactPageWireFrame.png">
 
 </details>
 
