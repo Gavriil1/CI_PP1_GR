@@ -1,108 +1,849 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#  Bodelschwinger Hof
 
-Welcome Gavriil1 G,
+(Developer: Ana Runje)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup image](docs/am-i-responsive.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
 
-## Gitpod Reminders
+##  Table of Content
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. [Project Goals](#project-goals)
 
-`python3 -m http.server`
+1. [User Goals](#user-goals)
 
-A blue button should appear to click: _Make Public_,
+2. [Site Owner Goals](#site-owner-goals)
 
-Another blue button should appear to click: _Open Browser_.
+2. [User Experience](#user-experience)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. [Target Audience](#target-audience)
 
-A blue button should appear to click: _Make Public_,
+2. [User Requrements and Expectations](#user-requrements-and-expectations)
 
-Another blue button should appear to click: _Open Browser_.
+3. [User Stories](#user-stories)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+3. [Design](#design)
 
-To log into the Heroku toolbelt CLI:
+1. [Design Choices](#design-choices)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+2. [Colour](#colours)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+3. [Fonts](#fonts)
 
-------
+4. [Structure](#structure)
 
-## Release History
+5. [Wireframes](#wireframes)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. [Technologies Used](#technologies-used)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+1. [Languages](#languages)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+2. [Frameworks & Tools](#frameworks-&-tools)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+5. [Features](#features)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+6. [Testing](#validation)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. [HTML Validation](#HTML-validation)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+2. [CSS Validation](#CSS-validation)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+3. [Accessibility](#accessibility)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+4. [Performance](#performance)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+5. [Device testing](#performing-tests-on-various-devices)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+6. [Browser compatibility](#browser-compatability)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+7. [Testing user stories](#testing-user-stories)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+8. [Bugs](#Bugs)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+9. [Deployment](#deployment)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+10. [Credits](#credits)
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+##  Project Goals
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+###  User Goals
 
-**How will this affect me?**
+-   Discovering a restaurant that provides both a pleasant ambiance and delicious cuisine.
+-   Accessing a comprehensive menu that displays pricing in a clear and concise manner.
+-   Obtaining details about the restaurant, such as its history, reviews, and ratings.
+-   Locating the physical address and directions to the restaurant's establishmen
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+###  Site Owner Goals
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Increase in the number of customers.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- Promote the bussines.
 
-**So….?**
+- Provide a way for new and existing customers to contact the business.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Provide essential information about the bussines to customers.
 
-**Can I opt out?**
+##  User Experience
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+###  Target Audience
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+-   Individuals searching for a dining venue
 
-**Anything more?**
+-   Individuals interested in placing a takeout order
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+-   Groups seeking a location to host a catered event
 
----
+-   Small to medium-sized wedding groups
 
-Happy coding!
+###  User Requrements and Expectations
+
+-   A navigation system that is easy to use and understand.
+-   Quickly and effortlessly locate the information you need.
+-   Links and features that perform as expected.
+-   Visually attractive design and layout that works well on all screen sizes.
+-   A straightforward method for contacting the business.
+-   Content that is easy to skim and understand.
+-   Availability for all users, including those with disabilities.
+
+###  User Stories
+
+####  First-time User
+
+1.  As a new visitor, I would like to easily find the restaurant's location.
+
+2.  As a first-time customer, I want to know the pricing options available at the restaurant.
+
+3.  As a newcomer, I would like to discover additional information about the restaurant.
+
+4.  As a first-time visitor, I want to have an idea of what to expect during my visit to the restaurant.
+
+####  Returning User
+
+5.  I want to check out the Sunday meal offer as a returning user.
+    
+6.  I want to be informed about the opening hours as a returning user.
+    
+7.  I want to locate a phone number to make a reservation as a returning user.
+    
+8.  As a returning user, I want to browse the menu.
+    
+9.  I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
+    
+10.  I want to find the restaurant on social media as a returning user.
+    
+11.  I want to know who prepares the food as a returning user.
+    
+12.  As a returning user, I want to access directions to the restaurant.
+
+####  Site Owner
+
+13.  It is important for me as the site owner that users can easily access news about upcoming events or changes in opening times.
+    
+14.  I want users to have the opportunity to learn more about the restaurant and its offerings as the site owner.
+    
+15.  Ensuring that users can easily contact us is a priority for me as the site owner.
+16. 
+##  Design
+
+###  Design Choices
+
+
+-   Since Tavern is located on a sea coast, I added a lot of blue to the website.
+-   I tried to show how easy, calm, and relaxed the experience at Rhodes Restaurant is.
+-   I made the page simple for the user, so the user could take action by contacting the restaurant to book a table.
+
+###  Fonts
+
+During the design development, I used the following list of fonts: Lato, Oswald, sans-serif, Arial.
+
+<br>
+
+-   I use Lato as the default font for the **body** on all pages.
+-   Oswald is used for the logo.
+-   Arial font was used for **h2**, **p**, and **body** of the booking page.
+ Sans-serif is used as a backup.
+
+<!-- the last save -->
+###  Structure
+
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right.
+
+The website consists of five separate pages:
+
+- A homepage with a sections for News and Sunday Meal Offers
+
+- An about page with the About Us and Meet the Chef
+
+- A menu page
+
+- A image gallery with images and video showcasing the general feel of the restaurant
+
+- A contact page with a contact form, a map and information about the bussines section
+
+###  Wireframes
+
+<details><summary>Home</summary>
+
+<img src="docs/wireframes/wireframes-homepage.png">
+
+</details>
+
+<details><summary>About</summary>
+
+<img src="docs/wireframes/wireframes-about.png">
+
+</details>
+
+<details><summary>Menu</summary>
+
+<img src="docs/wireframes/wireframes-menu.png">
+
+</details>
+
+<details><summary>Gallery</summary>
+
+<img src="docs/wireframes/wireframes-gallery.png">
+
+</details>
+
+<details><summary>Contact</summary>
+
+<img src="docs/wireframes/wireframes-contact.png">
+
+</details>
+
+##  Technologies Used
+
+###  Languages
+
+- HTML
+
+- CSS
+
+###  Frameworks & Tools
+
+- Bootstrap v5.0
+
+- Git
+
+- GitHub
+
+- Gitpod
+
+- Tinypng
+
+- Paint<span>.</span>NET
+
+- Balsamiq
+
+- Google Fonts
+
+- Adobe Color
+
+- Font Awsome
+
+- Favicon<span>.</span>io
+
+##  Features
+
+The page consists of five pages and fourteen features
+
+###  Logo and Navigation Bar
+
+- Featured on all five pages
+
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+
+links to the Homepage, About page, Menu page, Gallery and Contact us page
+
+- It allows users to easily navigate the page
+
+- The link for the page the user is currently on is highlighted
+
+![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+
+###  Carousel
+
+- Introduces the user to the restaurant with a small three picture slide show
+
+- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+
+![Carousel](docs/features/feature-carousel.jpg)
+
+###  News
+
+- Allowes the user to see upcoming events or any news about the restaurant
+
+- User stories covered: 13
+
+![News](docs/features/feature-news.jpg)
+
+###  Meal-deal
+
+- Allowes users to see what meal-deal is available for the upcoming Sunday
+
+- User stories covered: 5
+
+![Meal-deal](docs/features/feature-meal-deal.jpg)
+
+###  Footer
+
+- Featured on all five pages
+
+- Consists of three seperate sections: contact information, opening times, and social media links
+
+- User stories covered: 1, 6, 7, 10, 15
+
+![Footer](docs/features/feature-footer.jpg)
+
+###  About Us
+
+- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+
+- User stories covered: 3, 14
+
+![About Us](docs/features/feature-about-us.jpg)
+
+###  Customer reviews
+
+- Features a few reviews left by the restaurants customers on social media
+
+- User stories covered: 3
+
+![Reviews](docs/features/feature-reviews.jpg)
+
+###  Meet the Chef
+
+- Features a short bio of the chef with an image of the chef on the left side
+
+- User stories covered: 11
+
+![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
+
+###  Menu
+
+- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
+
+- Each section of the menu is accompanied with an image of one of the items form the menu
+
+- Features pricing
+
+- User stories covered: 2, 8
+
+![Menu](docs/features/feature-menu.jpg)
+
+###  Image Gallery
+
+- Imagery of the restaurant arranged in a grid
+
+- User stories covered: 4
+
+![Gallery](docs/features/feature-gallery.jpg)
+
+###  Promo Video
+
+- A YouTube video to promote the restaurant
+
+- User stories covered: 4
+
+![Video](docs/features/feature-video.jpg)
+
+###  Contact Form
+
+- A way for user to provide feedback
+
+- User stories covered: 9, 15
+
+![Contact Form](docs/features/feature-contact-form.jpg)
+
+###  Map
+
+- Shows the restaurant location on an embeded Google Map
+
+- User stories covered: 1, 12
+
+![Map](docs/features/feature-map.jpg)
+
+###  Info Box
+
+- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
+
+- User stories covered: 7, 15
+
+![Info Box](docs/features/feature-info-box.jpg)
+
+##  Validation
+
+###  HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
+<details><summary>Home</summary>
+
+<img src="docs/validation/validation-html-index.jpg">
+
+</details>
+
+<details><summary>About</summary>
+
+<img src="docs/validation/validation-html-about.jpg">
+
+</details>
+
+<details><summary>Menu</summary>
+
+<img src="docs/validation/validation-html-menu.jpg">
+
+</details>
+
+<details><summary>Gallery</summary>
+
+<img src="docs/validation/validation-html-gallery.jpg">
+
+</details>
+
+<details><summary>Home</summary>
+
+<img src="docs/validation/validation-html-contact.jpg">
+
+</details>
+
+###  CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
+
+<details><summary>whole page</summary>
+
+<img src="docs/validation/validation-css-whole-page.jpg">
+
+</details>
+
+<details><summary>style.css</summary>
+
+<img src="docs/validation/validation-css-style.jpg">
+
+</details>
+
+###  Accessibility
+
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+<details><summary>Home</summary>
+
+<img src="docs/validation/validation-accessibility-index.jpg">
+
+</details>
+
+<details><summary>About</summary>
+
+<img src="docs/validation/validation-accessibility-about.jpg">
+
+</details>
+
+<details><summary>Menu</summary>
+
+<img src="docs/validation/validation-accessibility-menu.jpg">
+
+</details>
+
+<details><summary>Gallery</summary>
+
+<img src="docs/validation/validation-accessibility-gallery.jpg">
+
+</details>
+
+<details><summary>Contact</summary>
+
+<img src="docs/validation/validation-accessibility-contact.jpg">
+
+</details>
+
+###  Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+<details><summary>Home</summary>
+
+<img src="docs/validation/lighthouse-performance-index.jpg">
+
+</details>
+
+<details><summary>About</summary>
+
+<img src="docs/validation/lighthouse-performance-about.jpg">
+
+</details>
+
+<details><summary>Menu</summary>
+
+<img src="docs/validation/lighthouse-performance-menu.jpg">
+
+</details>
+
+<details><summary>Gallery</summary>
+
+<img src="docs/validation/lighthouse-performance-gallery.jpg">
+
+</details>
+
+<details><summary>Contact</summary>
+
+<img src="docs/validation/lighthouse-performance-contact.jpg">
+
+</details>
+
+###  Performing tests on various devices
+
+The website was tested on the following devices:
+
+- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+
+- Honor 20 pro
+
+- Xiaomi Redmi Note 7
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+###  Browser compatability
+
+The website was tested on the following browsers:
+
+- Google Chrome
+
+- Mozilla Firefox
+
+- Microsoft Egde
+
+###  Testing user stories
+
+1. As a first time user, I want to know where the restaurant is lokated
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+
+<img src="docs/user-story-testing/user-story-1v2.jpg">
+
+</details>
+
+2. As a first time user, I want to know the price range
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-2.jpg">
+
+</details>
+
+3. As a first time user, I want to know more about the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
+
+| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+
+</details>
+
+4. As a first time user, I want to get a feel of what to expect at the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
+
+| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-4.jpg">
+
+</details>
+
+5. As a returning user, I want to see the Sunday meal offer
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-5.jpg">
+
+</details>
+
+6. As a returnign user, I want to know the opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-6.jpg">
+
+</details>
+
+7. As a returning user, I want to find a phone number to call for reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
+
+| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+
+</details>
+
+8. As a returning user, I want to see the menu
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Menu | Navigate to the menu page | Read the menu | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-8.jpg">
+
+</details>
+
+9. As a returning user, I want to leave some comment, suggestion or message to the staff
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+
+</details>
+
+10. As a returning user, I want to find the restaurant on social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-10.jpg">
+
+</details>
+
+11. As a returning user, I want to know who is preparing the food
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-11.jpg">
+
+</details>
+
+12. As a returning user, I want to get directions to the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+
+</details>
+
+13. As the site owner, I want users to find news about upcoming events or changes in opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-13.jpg">
+
+</details>
+
+14. As the site owner, I want users to get to know the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-3-14.jpg">
+
+</details>
+
+15. As the site owner, I want the users to be able to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+
+|-------------|------------|---------------------|-------------------|
+
+| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+
+| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
+
+| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+
+<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+
+<img src="docs/user-story-testing/user-story-9-15.jpg">
+
+</details>
+
+##  Bugs
+
+| **Bug** | **Fix** |
+
+| ----------- | ----------- |
+
+| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
+
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+
+| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
+
+| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
+
+| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
+
+##  Deployment
+
+The website was deployed using GitHub Pages by following these steps:
+
+1. In the GitHub repository navigate to the Settings tab
+
+2. On the left hand menu select Pages
+
+3. For the source select Branch: master
+
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+
+You can for fork the repository by following these steps:
+
+1. Go to the GitHub repository
+
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+
+1. Go to the GitHub repository
+
+2. Locate the Code button above the list of files and click it
+
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+
+4. Open Git Bash
+
+5. Change the current working directory to the one where you want the cloned directory
+
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+
+7.Press Enter to create your local clone.
+
+##  Credits
+
+Images not referenced below are owned by the developer.
+
+###  Media
+
+In order of apearance:
+
+- [carousel-1](assets/images/carousel-1.jpg): Photo by <a href="https://unsplash.com/@heathergill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heather Gill</a> on <a href="https://unsplash.com/s/photos/pots-and-pans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [news](assets/images/news.jpg): Photo by <a href="https://unsplash.com/@mareksminder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Altamimi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [meal-deal](assets/images/meal-deal.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [chef](assets/images/chef.jpg): <a href='https://www.freepik.com/photos/food'>Food photo created by freepik - www.freepik.com</a>
+
+- [menu background](assets/images/menu-background.jpg): <a href="https://www.freepik.com/vectors/background">Background vector created by pikisuperstar - www.freepik.com</a>
+
+- [starter](assets/images/starter.jpg) Photo by <a href="https://unsplash.com/@margzu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Margarita Zueva</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [main meal](assets/images/main-meal.jpg) Photo by <a href="https://unsplash.com/@keriliwi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keriliwi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [kids meal](assets/images/kids-meal.jpg) Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [dessert](assets/images/dessert.jpg) Photo by <a href="https://unsplash.com/@almapapi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Krisztina Papp</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [wine](assets/images/wine.jpg) Photo by <a href="https://unsplash.com/@biljaminai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Biljana Martinic</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [salad](assets/images/salad.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [fish](assets/images/fish.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [chicken](assets/images/chicken.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+- [404 error image](assets/images/404-error.png): <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
+
+###  Code
+
+In order of apearance:
+
+- The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
+
+- [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.0 documentation code snippet
+
+- CSS code to avoid whitespace below footer was taken from a forum post on [FreeCodeCamp](https://forum.freecodecamp.org/t/footer-white-space-below/191360)
+
+- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
