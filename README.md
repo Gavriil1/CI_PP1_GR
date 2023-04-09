@@ -165,7 +165,7 @@ During the design development, I used the following list of fonts: Lato, Oswald,
 -   Arial font was used for **h2**, **p**, and **body** of the booking page.
  Sans-serif is used as a backup.
 
-<!-- the last save -->
+
 ###  Structure
 
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right.
@@ -218,8 +218,6 @@ The website consists of five separate pages:
 
 ###  Frameworks & Tools
 
-- Bootstrap v5.0
-
 - Git
 
 - GitHub
@@ -228,35 +226,25 @@ The website consists of five separate pages:
 
 - Tinypng
 
-- Paint<span>.</span>NET
-
 - Balsamiq
 
 - Google Fonts
 
-- Adobe Color
-
-- Font Awsome
-
-- Favicon<span>.</span>io
+- Font Awsome 
 
 ##  Features
-
-The page consists of five pages and fourteen features
+<!-- the last save -->
+The website comprises four pages and <NUMBER> functionalities.
 
 ###  Logo and Navigation Bar
 
-- Featured on all five pages
+- Displayed on each of the five pages.
 
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+- The navigation bar is completely adaptable and transforms into a hamburger menu on smaller displays.
 
-links to the Homepage, About page, Menu page, Gallery and Contact us page
+- The hyperlink for the current page the user is viewing is emphasized.
 
-- It allows users to easily navigate the page
-
-- The link for the page the user is currently on is highlighted
-
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+![Logo and navbar](docs/features/logo.png)
 
 ###  Carousel
 
