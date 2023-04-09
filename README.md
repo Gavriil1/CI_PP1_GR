@@ -273,6 +273,20 @@ The website comprises four pages and <NUMBER> functionalities.
 
 ![Menu](docs/features/menu-of-the-restaurant.png)
 
+###  Contact Page
+
+Contact page has three section:
+a) Info Box.
+b) Google Map.
+c) Contact Form.
+
+###  Info Box
+
+- The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
+
+![Info Box](docs/features/info-box.png)
+
+
 ###  Image Gallery
 
 - Gallery section shows dishes, great view of the restaurant and user experience.
@@ -298,13 +312,6 @@ The website comprises four pages and <NUMBER> functionalities.
 
 ![Map](docs/features/feature-map.jpg)
 
-###  Info Box
-
-- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
-
-- User stories covered: 7, 15
-
-![Info Box](docs/features/feature-info-box.jpg)
 
 ##  Validation
 
