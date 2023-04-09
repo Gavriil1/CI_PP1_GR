@@ -275,19 +275,12 @@ The website comprises four pages and <NUMBER> functionalities.
 
 ###  Image Gallery
 
-- Imagery of the restaurant arranged in a grid
+- Gallery section shows dishes, great view of the restaurant and user experience.
 
-- User stories covered: 4
+- The pictures of the restaurant are presented in a grid layout.
 
-![Gallery](docs/features/feature-gallery.jpg)
+![Gallery](docs/features/gallery-page.png)
 
-###  Promo Video
-
-- A YouTube video to promote the restaurant
-
-- User stories covered: 4
-
-![Video](docs/features/feature-video.jpg)
 
 ###  Contact Form
 
