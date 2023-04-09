@@ -245,6 +245,7 @@ The website comprises four pages and <NUMBER> functionalities.
 - The hyperlink for the current page the user is viewing is emphasized.
 
 ![Logo and navbar](docs/features/logo-menu.png)
+![Logo and small navbar](docs/features/hamburger-menu.png)
 
 ###  Footer
 
@@ -253,6 +254,8 @@ The website comprises four pages and <NUMBER> functionalities.
 - Consists of four icons: Facebook, Twitter, YouTube, Instagram. Each icon is linked to a hyperlink.
 
 ![Footer](docs/features/footer.png)
+
+<!-- the last save -->
 
 ###  About Us
 
