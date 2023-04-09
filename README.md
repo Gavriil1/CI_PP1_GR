@@ -323,11 +323,6 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 </details>
 
-<details><summary>About</summary>
-
-<img src="docs/validation/validation-html-about.jpg">
-
-</details>
 
 <details><summary>Menu</summary>
 
