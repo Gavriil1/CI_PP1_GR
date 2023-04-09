@@ -271,7 +271,7 @@ The website comprises four pages and <NUMBER> functionalities.
 
 - Additionally, the menu includes pricing information for each item.
 
-![Menu](docs/features/menu of the restaurant.png)
+![Menu](docs/features/menu-of-the-restaurant.png)
 
 ###  Image Gallery
 
