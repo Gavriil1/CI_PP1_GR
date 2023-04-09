@@ -280,13 +280,6 @@ a) Info Box.
 b) Google Map.
 c) Contact Form.
 
-###  Info Box
-
-- The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
-
-![Info Box](docs/features/info-box.png)
-
-
 ###  Image Gallery
 
 - Gallery section shows dishes, great view of the restaurant and user experience.
@@ -294,6 +287,15 @@ c) Contact Form.
 - The pictures of the restaurant are presented in a grid layout.
 
 ![Gallery](docs/features/gallery-page.png)
+
+
+###  Info Box
+
+- The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
+
+![Info Box](docs/features/info-box.png)
+
+
 
 
 ###  Contact Form
