@@ -300,11 +300,9 @@ c) Contact Form.
 
 ###  Contact Form
 
-- A way for user to provide feedback
+- A way for users to send an email to a restaurant to book a table or leave feedback.
 
-- User stories covered: 9, 15
-
-![Contact Form](docs/features/feature-contact-form.jpg)
+![Contact Form](docs/features/contact-form.png)
 
 ###  Map
 
