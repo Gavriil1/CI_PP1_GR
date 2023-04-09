@@ -257,41 +257,21 @@ The website comprises four pages and <NUMBER> functionalities.
 
 <!-- the last save -->
 
-###  About Us
+###  Home Page
 
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+- Gives a description of the restaurant with a image of the dining area next to the sea. 
 
-- User stories covered: 3, 14
-
-![About Us](docs/features/feature-about-us.jpg)
-
-###  Customer reviews
-
-- Features a few reviews left by the restaurants customers on social media
-
-- User stories covered: 3
-
-![Reviews](docs/features/feature-reviews.jpg)
-
-###  Meet the Chef
-
-- Features a short bio of the chef with an image of the chef on the left side
-
-- User stories covered: 11
-
-![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
+![Home Page](docs/features/home-page.png)
 
 ###  Menu
 
-- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
+- The menu is divided into three sections: Starters, Main Courses, and Desserts.
 
-- Each section of the menu is accompanied with an image of one of the items form the menu
+- Each showcasing a picture of one of the items on offer. 
 
-- Features pricing
+- Additionally, the menu includes pricing information for each item.
 
-- User stories covered: 2, 8
-
-![Menu](docs/features/feature-menu.jpg)
+![Menu](docs/features/menu of the restaurant.png)
 
 ###  Image Gallery
 
