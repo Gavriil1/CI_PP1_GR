@@ -246,39 +246,13 @@ The website comprises four pages and <NUMBER> functionalities.
 
 ![Logo and navbar](docs/features/logo-menu.png)
 
-###  Carousel
-
-- Introduces the user to the restaurant with a small three picture slide show
-
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
-
-![Carousel](docs/features/feature-carousel.jpg)
-
-###  News
-
-- Allowes the user to see upcoming events or any news about the restaurant
-
-- User stories covered: 13
-
-![News](docs/features/feature-news.jpg)
-
-###  Meal-deal
-
-- Allowes users to see what meal-deal is available for the upcoming Sunday
-
-- User stories covered: 5
-
-![Meal-deal](docs/features/feature-meal-deal.jpg)
-
 ###  Footer
 
-- Featured on all five pages
+- Displayed on each of the five pages.
 
-- Consists of three seperate sections: contact information, opening times, and social media links
+- Consists of four icons: Facebook, Twitter, YouTube, Instagram. Each icon is linked to a hyperlink.
 
-- User stories covered: 1, 6, 7, 10, 15
-
-![Footer](docs/features/feature-footer.jpg)
+![Footer](docs/features/footer.png)
 
 ###  About Us
 
