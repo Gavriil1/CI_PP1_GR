@@ -244,7 +244,7 @@ The website comprises four pages and <NUMBER> functionalities.
 
 - The hyperlink for the current page the user is viewing is emphasized.
 
-![Logo and navbar](docs/features/logo.png)
+![Logo and navbar](docs/features/logo-menu.png)
 
 ###  Carousel
 
