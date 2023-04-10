@@ -326,7 +326,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details><summary>Menu</summary>
 
-<img src="docs/validation/validation-html-menu.jpg">
+<img src="docs/validation/menu-page-validation.png">
 
 </details>
 
