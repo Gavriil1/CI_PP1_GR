@@ -378,7 +378,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 
 <details><summary>Menu</summary>
 
-<img src="docs/validation/validation-accessibility-menu.jpg">
+<img src="docs/validation/menu-page-validation.png">
 
 </details>
 
