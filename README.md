@@ -353,13 +353,22 @@ When validating the page as a whole, the validator shows some errors linked to B
 
 <details><summary>whole page</summary>
 
-<img src="docs/validation/validation-css-whole-page.jpg">
+CSS Home page validation: No Errors
+<img src="docs/validation/css-home.png">
+CSS Menu page validation: No Errors
+<img src="docs/validation/css-menu.png">
+CSS Gallery page validation: No Errors
+<img src="docs/validation/css-gallery.png">
+CSS Contact page validation: No Errors
+<img src="docs/validation/css-contact.png">
 
 </details>
 
 <details><summary>style.css</summary>
 
-<img src="docs/validation/validation-css-style.jpg">
+Upon examination, no CSS errors were detected in the CSS.style document.
+
+<img src="docs/validation/css-style-validation.png">
 
 </details>
 
