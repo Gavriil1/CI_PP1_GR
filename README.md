@@ -332,15 +332,19 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details><summary>Gallery</summary>
 
-We have this warning on the 'Gallery page'. On CodeInstitute, this is how the lecturer created a gallery in her example. For this reason, I ignore the warning and do not change <section> to <div>
+We have this warning on the 'Gallery page'. On CodeInstitute, this is how the lecturer created a gallery in her example. For this reason, I ignore the warning and do not change section to div
 
 <img src="docs/validation/gallery_page_validation.png">
 
 </details>
 
 <details><summary>Contact</summary>
+We have two errors on this page. I believe these two errors are false positives.
+I cannot change 100% to 100 because it will break the page.
+In addition, using px in height is a valid CSS method: https://developer.mozilla.org/en-US/docs/Web/CSS/height
+For these reasons, I will ignore the errors and treat them as false positives.
 
-<img src="docs/validation/validation-html-contact.jpg">
+<img src="docs/validation/contact-page-validation.png">
 
 </details>
 
