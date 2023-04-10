@@ -315,7 +315,7 @@ c) Contact Form.
 
 ###  HTML Validation
 
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+We utilized the W3C Markup Validation Service to validate the HTML of our website. The Home and Menu pages passed without errors; however, the Gallery and Contact pages returned warnings and errors. Based on my assessment, I deem these errors to be false positives. I have added comments to each section to provide justification for my conclusion.
 
 <details><summary>Home</summary>
 
@@ -332,17 +332,14 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details><summary>Gallery</summary>
 
-We have this warning on the 'Gallery page'. On CodeInstitute, this is how the lecturer created a gallery in her example. For this reason, I ignore the warning and do not change section to div
+An error was detected on the 'Gallery' page, which has been attributed to the methodology utilized by the lecturer in the CodeInstitute example. Despite the warning, we have opted to retain the existing structure, and therefore, we will not convert the section to a div
 
 <img src="docs/validation/gallery_page_validation.png">
 
 </details>
 
 <details><summary>Contact</summary>
-We have two errors on this page. I believe these two errors are false positives.
-I cannot change 100% to 100 because it will break the page.
-In addition, using px in height is a valid CSS method: https://developer.mozilla.org/en-US/docs/Web/CSS/height
-For these reasons, I will ignore the errors and treat them as false positives.
+Two errors have been identified on this page; however, after thorough investigation, we believe that both are false positives. It is not feasible to modify the '100%' value to '100' as it would cause page breakage. Additionally, the use of 'px' in height is an acceptable CSS method, as outlined by the W3C CSS specification (https://developer.mozilla.org/en-US/docs/Web/CSS/height). Consequently, we have made a decision to disregard these errors and consider them as false positives.
 
 <img src="docs/validation/contact-page-validation.png">
 
