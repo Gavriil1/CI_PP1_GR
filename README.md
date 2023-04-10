@@ -347,9 +347,7 @@ Two errors have been identified on this page; however, after thorough investigat
 
 ###  CSS Validation
 
-The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-
-When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
+The CSS of the website was validated using the W3C Jigsaw CSS Validation Service, which yielded no errors.
 
 <details><summary>whole page</summary>
 
