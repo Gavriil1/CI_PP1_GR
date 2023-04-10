@@ -332,7 +332,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 <details><summary>Gallery</summary>
 
-<img src="docs/validation/validation-html-gallery.jpg">
+We have this warning on the 'Gallery page'. On CodeInstitute, this is how the lecturer created a gallery in her example. For this reason, I ignore the warning and do not change <section> to <div>
+
+<img src="docs/validation/gallery_page_validation.png">
 
 </details>
 
