@@ -338,7 +338,7 @@ We have this warning on the 'Gallery page'. On CodeInstitute, this is how the le
 
 </details>
 
-<details><summary>Home</summary>
+<details><summary>Contact</summary>
 
 <img src="docs/validation/validation-html-contact.jpg">
 
