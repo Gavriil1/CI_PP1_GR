@@ -423,8 +423,11 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Home</summary>
 
 Dekstop
+
 <img src="docs/performance/desktop-home-performance.png">
+
 Mobile
+
 <img src="docs/performance/mobile-home-performance.png">
 
 </details>
@@ -432,8 +435,11 @@ Mobile
 <details><summary>Menu</summary>
 
 Dekstop
+
 <img src="docs/performance/desktop-menu-performance.png">
+
 Mobile
+
 <img src="docs/performance/mobile-menu-performance.png">
 
 </details>
@@ -441,8 +447,11 @@ Mobile
 <details><summary>Gallery</summary>
 
 Dekstop
+
 <img src="docs/performance/desktop-gallery-performance.png">
+
 Mobile
+
 <img src="docs/performance/mobile-gallery-performance.png">
 
 </details>
@@ -450,8 +459,11 @@ Mobile
 <details><summary>Contact</summary>
 
 Dekstop
+
 <img src="docs/performance/dekstop-contact-performance.png">
+
 Mobile
+
 <img src="docs/performance/mobile-contact-performance.png">
 
 </details>
