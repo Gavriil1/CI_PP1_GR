@@ -475,17 +475,17 @@ Screenshot of Mobile performance of Contact page in Google Lighthouse.
 
 The website was tested on the following devices:
 
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
+- Latitude 5520
 
-- Honor 20 pro
+- Redmi Note 10
 
-- Xiaomi Redmi Note 7
+- Samsung Tablet A10.1
 
-In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+Furthermore, the website underwent testing using the Device Toggling feature of Google Chrome Developer Tools, which includes all available device options.
 
 ###  Browser compatability
 
-The website was tested on the following browsers:
+The following browsers were used to test the website:
 
 - Google Chrome
 
