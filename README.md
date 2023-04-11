@@ -423,6 +423,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Home</summary>
 
 
+
 Screenshot of Desktop performance of Home page in Google Lighthouse.
 
 <img src="docs/performance/desktop-home-performance.png">
@@ -434,6 +435,7 @@ Screenshot of Mobile performance of Home page in Google Lighthouse.
 </details>
 
 <details><summary>Menu</summary>
+
 
 Screenshot of Desktop performance of Menu page in Google Lighthouse.
 
