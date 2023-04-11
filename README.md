@@ -376,31 +376,23 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 
 <details><summary>Home</summary>
 
-<img src="docs/validation/validation-accessibility-index.jpg">
-
-</details>
-
-<details><summary>About</summary>
-
-<img src="docs/validation/validation-accessibility-about.jpg">
-
-</details>
+<img src="docs/accessibility/home-accessibility-test.png">
 
 <details><summary>Menu</summary>
 
-<img src="docs/validation/menu-page-validation.png">
+<img src="docs/accessibility/menu-accessibility-test.png">
 
 </details>
 
 <details><summary>Gallery</summary>
 
-<img src="docs/validation/validation-accessibility-gallery.jpg">
+<img src="docs/accessibility/gallery-accessibility-test.png">
 
 </details>
 
 <details><summary>Contact</summary>
 
-<img src="docs/validation/validation-accessibility-contact.jpg">
+<img src="docs/accessibility/contact-accessibility-test.png">
 
 </details>
 
