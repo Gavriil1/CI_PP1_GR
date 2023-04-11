@@ -422,31 +422,37 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 <details><summary>Home</summary>
 
-<img src="docs/validation/lighthouse-performance-index.jpg">
-
-</details>
-
-<details><summary>About</summary>
-
-<img src="docs/validation/lighthouse-performance-about.jpg">
+Dekstop
+<img src="docs/performance/desktop-home-performance.png">
+Mobile
+<img src="docs/performance/mobile-home-performance.png">
 
 </details>
 
 <details><summary>Menu</summary>
 
-<img src="docs/validation/lighthouse-performance-menu.jpg">
+Dekstop
+<img src="docs/performance/desktop-menu-performance.png">
+Mobile
+<img src="docs/performance/mobile-menu-performance.png">
 
 </details>
 
 <details><summary>Gallery</summary>
 
-<img src="docs/validation/lighthouse-performance-gallery.jpg">
+Dekstop
+<img src="docs/performance/desktop-gallery-performance.png">
+Mobile
+<img src="docs/performance/mobile-gallery-performance.png">
 
 </details>
 
 <details><summary>Contact</summary>
 
-<img src="docs/validation/lighthouse-performance-contact.jpg">
+Dekstop
+<img src="docs/performance/dekstop-contact-performance.png">
+Mobile
+<img src="docs/performance/mobile-contact-performance.png">
 
 </details>
 
