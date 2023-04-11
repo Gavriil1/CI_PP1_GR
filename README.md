@@ -422,11 +422,12 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 <details><summary>Home</summary>
 
-Dekstop
+
+Screenshot of Desktop performance of Home page in Google Lighthouse.
 
 <img src="docs/performance/desktop-home-performance.png">
 
-Mobile
+Screenshot of Mobile performance of Home page in Google Lighthouse.
 
 <img src="docs/performance/mobile-home-performance.png">
 
@@ -434,11 +435,11 @@ Mobile
 
 <details><summary>Menu</summary>
 
-Dekstop
+Screenshot of Desktop performance of Menu page in Google Lighthouse.
 
 <img src="docs/performance/desktop-menu-performance.png">
 
-Mobile
+Screenshot of Mobile performance of Menu page in Google Lighthouse.
 
 <img src="docs/performance/mobile-menu-performance.png">
 
@@ -446,11 +447,11 @@ Mobile
 
 <details><summary>Gallery</summary>
 
-Dekstop
+Screenshot of Desktop performance of Gallery page in Google Lighthouse.
 
 <img src="docs/performance/desktop-gallery-performance.png">
 
-Mobile
+Screenshot of Mobile performance of Gallery page in Google Lighthouse.
 
 <img src="docs/performance/mobile-gallery-performance.png">
 
@@ -458,11 +459,11 @@ Mobile
 
 <details><summary>Contact</summary>
 
-Dekstop
+Screenshot of Desktop performance of Contact page in Google Lighthouse.
 
 <img src="docs/performance/dekstop-contact-performance.png">
 
-Mobile
+Screenshot of Mobile performance of Contact page in Google Lighthouse.
 
 <img src="docs/performance/mobile-contact-performance.png">
 
