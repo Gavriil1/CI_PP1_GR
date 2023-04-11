@@ -385,6 +385,7 @@ We have also identified 4 "Contrast Errors," but the content of the site navigat
 Finally, we have identified 1 "Redundancy Link" alert. This is because the logo of the page and the home page have exactly the same hyperlink. However, this is part of the initial website design, so it is also a false positive error.
 
 <img src="docs/accessibility/home-accessibility-test.png">
+</details>
 
 <details><summary>Menu</summary>
 
@@ -400,6 +401,9 @@ Finally, we have identified 1 "Redundancy Link" alert. This is because the logo 
 
 </details>
 
+
+<details><summary>Gallery</summary>
+
 On this page, we have identified 5 errors and 1 alert. 
 
 The first error is "Empty Form Label." However, this is a false positive error since the form is not visible to the user. The form is actually added to create a hamburger menu. Therefore, "Empty Form Label" is a false positive error.
@@ -408,7 +412,6 @@ We have also identified 4 "Contrast Errors," but the content of the site navigat
 
 Finally, we have identified 1 "Redundancy Link" alert. This is because the logo of the page and the home page have exactly the same hyperlink. However, this is part of the initial website design, so it is also a false positive error.
 
-<details><summary>Gallery</summary>
 
 <img src="docs/accessibility/gallery-accessibility-test.png">
 
