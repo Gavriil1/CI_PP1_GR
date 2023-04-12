@@ -495,18 +495,17 @@ The following browsers were used to test the website:
 
 ###  Testing user stories
 
-1. As a first time user, I want to know where the restaurant is lokated
+1. As a new visitor, I would like to easily find the restaurant's location.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-testing/US-1-1.png">
 
-<img src="docs/user-story-testing/user-story-1v2.jpg">
 
 </details>
 
