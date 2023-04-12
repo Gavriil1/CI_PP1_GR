@@ -499,7 +499,7 @@ The following browsers were used to test the website:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+| Map | Navigate to the Contact Us page, locate the Google Map | Finding a map that displays the whereabouts of the restaurant. | Works as expected |
 
 
 <details><summary>Screenshots</summary>
@@ -509,15 +509,15 @@ The following browsers were used to test the website:
 
 </details>
 
-2. As a first time user, I want to know the price range
+2. As a first-time customer, I want to know the pricing options available at the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+| Menu | Navigate to the Menu page | See the prices for each menu option | Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story-testing/US-1-2.png">
 
 </details>
 
@@ -525,12 +525,12 @@ The following browsers were used to test the website:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected |
+| Home | Navigate to the Home page and locate restaurant descprition | Find view of the restaurant and its description | Works as expected |
+
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="docs/user-story-testing/US-1-3.png">
 
 </details>
 
