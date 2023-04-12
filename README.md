@@ -534,16 +534,16 @@ The following browsers were used to test the website:
 
 </details>
 
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+4. As a first-time visitor, I want to have an idea of what to expect during my visit to the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+| Gallery | Navigate to the Gallery page | Find pictures of the food, beautiful panoramas, and customer experiences. | Works as expected |
+
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-4.jpg">
+<img src="docs/user-story-testing/US-1-4.png">
 
 </details>
 
