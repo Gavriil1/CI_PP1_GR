@@ -134,15 +134,15 @@
     
 10.  I want to find the restaurant on social media as a returning user.
     
-11.  I want to know who prepares the food as a returning user.
+
     
 12.  As a returning user, I want to access directions to the restaurant.
 
 ####  Site Owner
 
-13.  It is important for me as the site owner that users can easily access news about upcoming events or changes in opening times.
+
     
-14.  I want users to have the opportunity to learn more about the restaurant and its offerings as the site owner.
+14.  As the site owner, I want users to access the site and learn more about the restaurant 
     
 15.  Ensuring that users can easily contact us is a priority for me as the site owner.
 16. 
@@ -586,7 +586,7 @@ The following browsers were used to test the website:
 
 </details>
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+9. I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -594,31 +594,19 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="upload-US-2-4">
 
 </details>
 
-10. As a returning user, I want to find the restaurant on social media
+10. I want to find the restaurant on social media as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected |
+| Footer  | On any page scroll to the bottom | Click on social media links | Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-10.jpg">
-
-</details>
-
-11. As a returning user, I want to know who is preparing the food
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
-
-<details><summary>Screenshots</summary>
-
-<img src="docs/user-story-testing/user-story-11.jpg">
+<img src="upload 2-5">
 
 </details>
 
@@ -626,53 +614,42 @@ The following browsers were used to test the website:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+| Map | Contact Page -> Google Map ->  click on directions link | View the restaurant's directions on Google Maps.| Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="upload 2-6">
 
 </details>
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
-
-<details><summary>Screenshots</summary>
-
-<img src="docs/user-story-testing/user-story-13.jpg">
-
-</details>
 
 14. As the site owner, I want users to get to know the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+| Home Page| Navigate to Home Page | View the restaurant's panorama and read its description. | Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="upload US 2-7">
 
 </details>
 
-15. As the site owner, I want the users to be able to contact us
+15. As the site owner, I want users to find our contact details to contact us or contact us through contact form.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
+| Contact Form | Contact Page -> Contact Form -> Enter text -> Submit | Data submited via contact form | Works as expectd |
+| Info Box | Contact page -> Infor Box -> Find Phone and Email | Find the phone number, Email  | Works as expected |
+
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
+<img src="US-2-8">
 
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="US-2-9">
 
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+
 
 </details>
 
