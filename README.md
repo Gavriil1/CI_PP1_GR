@@ -121,7 +121,8 @@
 
 ####  Returning User
 
-5.  I want to check out the Sunday meal offer as a returning user.
+
+
     
 6.  I want to be informed about the opening hours as a returning user.
     
@@ -547,27 +548,17 @@ The following browsers were used to test the website:
 
 </details>
 
-5. As a returning user, I want to see the Sunday meal offer
+
+
+6. I want to be informed about the opening hours as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| Info Box| Contact page -> Infor Box -> Opening hours  | See opening hours | Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-5.jpg">
-
-</details>
-
-6. As a returnign user, I want to know the opening times
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
-
-<details><summary>Screenshots</summary>
-
-<img src="docs/user-story-testing/user-story-6.jpg">
+<img src="replace-png-with-US-2-1">
 
 </details>
 
@@ -575,14 +566,11 @@ The following browsers were used to test the website:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+| Info Box | Contact Page -> Info Box-> Search for Phone number | See phone number | Works as expected |
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="replace-png-US-2-2">
 
 </details>
 
@@ -594,7 +582,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="upload US 2-3">
 
 </details>
 
@@ -602,7 +590,7 @@ The following browsers were used to test the website:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| Contact Form | Please go to the Contact Us Page and find the contact form. Complete the form with your information and send it.| Data submited via contact form | Works as expectd |
 
 <details><summary>Screenshots</summary>
 
