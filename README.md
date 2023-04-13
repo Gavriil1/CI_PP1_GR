@@ -1422,9 +1422,9 @@ All images where taken from random website through Google Images.
 In order of apearance:
 
 - Website Menue Bar: [CodingNepal](https://www.youtube.com/watch?v=oLgtucwjVII)
-- Restaurant Menu, Contact page, Contact Form: https://www.w3schools.com/howto/howto_css_contact_section.asp 
-- Restaurant Menu: Abdullah Nahian: https://www.youtube.com/watch?v=nTt0QhjdqEU
-- Gallery: CodeInstitute:Love Running:Essentials Project:GalleryImages
+- Restaurant Menu, Contact page, Contact Form: [w3schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) 
+- Restaurant Menu: Abdullah [Nahian](https://www.youtube.com/watch?v=nTt0QhjdqEU)
+- Gallery: [CodeInstitute:Love Running:Essentials Project:GalleryImages](codeinstitute.net)
 
 
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
