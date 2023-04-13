@@ -1286,7 +1286,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="replace-png-with-US-2-1">
+<img src="docs/user-story-testing/US-2-1.png">
 
 </details>
 
@@ -1298,7 +1298,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="replace-png-US-2-2">
+<img src="docs/user-story-testing/US-2-2.png">
 
 </details>
 
@@ -1310,7 +1310,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="upload US 2-3">
+<img src="docs/user-story-testing/US-2-3.png">
 
 </details>
 
@@ -1322,7 +1322,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="upload-US-2-4">
+<img src="docs/user-story-testing/US-2-4.png">
 
 </details>
 
@@ -1334,7 +1334,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="upload 2-5">
+<img src="docs/user-story-testing/US-2-5.png">
 
 </details>
 
@@ -1346,7 +1346,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="upload 2-6">
+<img src="docs/user-story-testing/US-2-6.png">
 
 </details>
 
@@ -1359,7 +1359,7 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="upload US 2-7">
+<img src="docs/user-story-testing/US-2-7.png">
 
 </details>
 
@@ -1373,9 +1373,9 @@ The following browsers were used to test the website:
 
 <details><summary>Screenshots</summary>
 
-<img src="US-2-8">
+<img src="docs/user-story-testing/US-2-8.png">
 
-<img src="US-2-9">
+<img src="docs/user-story-testing/US-2-9.png">
 </details>
 
 ##  Deployment
