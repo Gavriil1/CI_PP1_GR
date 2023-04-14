@@ -69,31 +69,29 @@
 ###  User Goals
 
 -   Discovering a restaurant that provides both a pleasant ambiance and delicious cuisine.
+
 -   Accessing a comprehensive menu that displays pricing in a clear and concise manner.
--   Obtaining details about the restaurant, such as its history, reviews, and ratings.
--   Locating the physical address and directions to the restaurant's establishmen
+
+-   Obtaining details about the restaurant Email, Phone, Google Map Location.
+
 
 ###  Site Owner Goals
 
-- Increase in the number of customers.
+-   Increase the client base.
 
-- Promote the bussines.
+-   Advertise the business to tourists and locals.
 
-- Provide a way for new and existing customers to contact the business.
-
-- Provide essential information about the bussines to customers.
+-   Offer a means for new and current customers to reach out to the restaurant.
 
 ##  User Experience
 
 ###  Target Audience
 
--   Individuals searching for a dining venue
+- Individuals who are searching for a dining venue.
 
--   Individuals interested in placing a takeout order
+- Individuals who are interested in a take-away option.
 
--   Groups seeking a location to host a catered event
-
--   Small to medium-sized wedding groups
+- Groups who are seeking a location to host a small event
 
 ###  User Requrements and Expectations
 
