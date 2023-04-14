@@ -417,7 +417,7 @@ While reviewing this particular page, we have identified a newly surfaced error 
 
 ###  Performance
 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+The performance of the website was tested using Google Lighthouse.
 
 <details><summary>Home</summary>
 
