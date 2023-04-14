@@ -652,13 +652,13 @@ The following browsers were used to test the website:
 
 The website was deployed using GitHub Pages by following these steps:
 
-1. In the GitHub repository navigate to the Settings tab
+1. Go to the Settings tab of the GitHub repository.
 
-2. On the left hand menu select Pages
+2. Select Pages from the menu on the left-hand side.
 
-3. For the source select Branch: master
+3. Choose Branch: master as the source.
 
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://gavriil1.github.io/CI_PP1_GR/index.html"
+4. Once the webpage refreshes automatically, a ribbon will appear at the top: "Your site is published at https://gavriil1.github.io/CI_PP1_GR/index.html"
 
 
 ###  Media
