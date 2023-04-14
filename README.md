@@ -219,7 +219,7 @@ The website is composed of four distinct pages:
 
 - Gitpod
 
-- Tinypng
+- convert (Linux Bash script)
 
 - Balsamiq
 
@@ -268,13 +268,6 @@ The website comprises four pages and <NUMBER> functionalities.
 
 ![Menu](docs/features/menu-of-the-restaurant.png)
 
-###  Contact Page
-
-Contact page has three section:
-a) Info Box.
-b) Google Map.
-c) Contact Form.
-
 ###  Image Gallery
 
 - Gallery section shows dishes, great view of the restaurant and user experience.
@@ -282,6 +275,14 @@ c) Contact Form.
 - The pictures of the restaurant are presented in a grid layout.
 
 ![Gallery](docs/features/gallery-page.png)
+
+
+###  Contact Page
+
+Contact page has three section:
+a) Info Box.
+b) Google Map.
+c) Contact Form.
 
 
 ###  Info Box
