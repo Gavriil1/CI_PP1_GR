@@ -548,7 +548,7 @@ The following browsers were used to test the website:
 
 
 
-6. I want to be informed about the opening hours as a returning user.
+5. I want to be informed about the opening hours as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -560,7 +560,7 @@ The following browsers were used to test the website:
 
 </details>
 
-7. As a returning user, I want to find a phone number to call for reservation
+6. As a returning user, I want to find a phone number to call for reservation
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -572,7 +572,7 @@ The following browsers were used to test the website:
 
 </details>
 
-8. As a returning user, I want to see the menu
+7. As a returning user, I want to see the menu
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -584,7 +584,7 @@ The following browsers were used to test the website:
 
 </details>
 
-9. I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
+8. I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -596,7 +596,7 @@ The following browsers were used to test the website:
 
 </details>
 
-10. I want to find the restaurant on social media as a returning user.
+9. I want to find the restaurant on social media .
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -608,7 +608,7 @@ The following browsers were used to test the website:
 
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+10. As a returning user, I want to get directions to the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -621,7 +621,7 @@ The following browsers were used to test the website:
 </details>
 
 
-14. As the site owner, I want users to get to know the restaurant
+11. As the site owner, I want users to access the site and learn more about the restaurant nt
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -633,7 +633,7 @@ The following browsers were used to test the website:
 
 </details>
 
-15. As the site owner, I want users to find our contact details to contact us or contact us through contact form.
+12. As the site owner, I want users to find our contact details to contact us .
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
