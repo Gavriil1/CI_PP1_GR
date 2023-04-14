@@ -669,8 +669,8 @@ All images where taken from random website through Google Images.
 
 In order of apearance:
 
-- Website Menue Bar: [CodingNepal](https://www.youtube.com/watch?v=oLgtucwjVII)
+- Website Menue Bar: [CodingNepal]()
 - Restaurant Menu, Contact page, Contact Form: [w3schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) 
-- Restaurant Menu: Abdullah [Nahian](https://www.youtube.com/watch?v=nTt0QhjdqEU)
-- Gallery: [CodeInstitute:Love Running:Essentials Project:GalleryImages](codeinstitute.net)
+- Restaurant Menu: [Abdullah Nahian](https://www.youtube.com/watch?v=nTt0QhjdqEU)
+- Gallery: [CodeInstitute:Love Running:Essentials Project:GalleryImages](https://codeinstitute.net/global/)
 
