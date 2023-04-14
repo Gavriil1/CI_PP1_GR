@@ -658,7 +658,7 @@ The website was deployed using GitHub Pages by following these steps:
 
 3. For the source select Branch: master
 
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://gavriil1.github.io/CI_PP1_GR/index.html"
 
 
 ###  Media
