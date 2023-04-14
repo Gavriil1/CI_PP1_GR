@@ -299,7 +299,7 @@ The user is furnished with details about the restaurant such as its address, pho
 
 ###  Contact Form
 
-- A way for users to send an email to a restaurant to book a table or leave feedback.
+A way for users to send an email to a restaurant to book a table or leave feedback.
 
 ![Contact Form](docs/features/contact-form.png)
 
@@ -371,7 +371,7 @@ Upon examination, no CSS errors were detected in the CSS.style document.
 
 ###  Accessibility
 
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards.
+To ensure the website met high accessibility standards, the WAVE WebAIM web accessibility evaluation tool was utilized.
 
 <details><summary>Home</summary>
 
