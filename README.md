@@ -290,7 +290,7 @@ c) Contact Form.
 
 ###  Info Box
 
-- The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
+The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
 
 ![Info Box](docs/features/info-box.png)
 
