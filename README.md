@@ -305,7 +305,7 @@ c) Contact Form.
 
 ###  Map
 
-- Displays the restaurant's location using an embedded Google Map.
+Displays the restaurant's location using an embedded Google Map.
 
 ![Map](docs/features/map.png)
 
