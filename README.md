@@ -1,10 +1,10 @@
-#  Bodelschwinger Hof
+#  RHODES RESTAURANT
 
-(Developer: Ana Runje)
+(Developer: Gabriel SP)
 
-![Mockup image](docs/am-i-responsive.jpg)
 
-[Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
+
+[Live webpage](https://gavriil1.github.io/CI_PP1_GR/index.html)
 
 ##  Table of Content
 
