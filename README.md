@@ -95,13 +95,15 @@
 
 ###  User Requrements and Expectations
 
--   A navigation system that is easy to use and understand.
--   Quickly and effortlessly locate the information you need.
--   Links and features that perform as expected.
--   Visually attractive design and layout that works well on all screen sizes.
--   A straightforward method for contacting the business.
--   Content that is easy to skim and understand.
--   Availability for all users, including those with disabilities.
+- A well-designed website where everything feels intuitive.
+
+- Content that is easy to read and understand.
+
+- Modern design and layout that works on different devices.
+
+- Possibility to easily locate contact information of the business, such as email, phone, and Google Maps.
+
+- Opportunity to read the menu and pricing of the restaurant.
 
 ###  User Stories
 
@@ -111,37 +113,30 @@
 
 2.  As a first-time customer, I want to know the pricing options available at the restaurant.
 
-3.  As a newcomer, I would like to discover additional information about the restaurant.
+3.  As a first time user, I want to know more about the restaurant
 
 4.  As a first-time visitor, I want to have an idea of what to expect during my visit to the restaurant.
 
 ####  Returning User
-
-
-
+ 
+5.  I want to be informed about the opening hours as a returning user.
     
-6.  I want to be informed about the opening hours as a returning user.
+6.  As a returning user, I want to find a phone number to call for reservation
     
-7.  I want to locate a phone number to make a reservation as a returning user.
+7.  As a returning user, I want to see the menu
     
-8.  As a returning user, I want to browse the menu.
+8.  I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
     
-9.  I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
+9.  I want to find the restaurant on social media.
     
-10.  I want to find the restaurant on social media as a returning user.
-    
-
-    
-12.  As a returning user, I want to access directions to the restaurant.
+10.  As a returning user, I want to get directions to the restaurant.
 
 ####  Site Owner
-
-
+  
+11.  As the site owner, I want users to access the site and learn more about the restaurant 
     
-14.  As the site owner, I want users to access the site and learn more about the restaurant 
-    
-15.  Ensuring that users can easily contact us is a priority for me as the site owner.
-16. 
+12.  As the site owner, I want users to find our contact details to contact us .
+
 ##  Design
 
 ###  Design Choices
@@ -1276,7 +1271,7 @@ The following browsers were used to test the website:
 
 
 
-6. I want to be informed about the opening hours as a returning user.
+5. I want to be informed about the opening hours as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1288,7 +1283,7 @@ The following browsers were used to test the website:
 
 </details>
 
-7. As a returning user, I want to find a phone number to call for reservation
+6. As a returning user, I want to find a phone number to call for reservation
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1300,7 +1295,7 @@ The following browsers were used to test the website:
 
 </details>
 
-8. As a returning user, I want to see the menu
+7. As a returning user, I want to see the menu
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1312,7 +1307,7 @@ The following browsers were used to test the website:
 
 </details>
 
-9. I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
+8. I want to provide feedback, suggestions, or a message to the restaurant's staff as a returning user.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1324,7 +1319,7 @@ The following browsers were used to test the website:
 
 </details>
 
-10. I want to find the restaurant on social media as a returning user.
+9. I want to find the restaurant on social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1336,7 +1331,7 @@ The following browsers were used to test the website:
 
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+10. As a returning user, I want to get directions to the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1349,7 +1344,7 @@ The following browsers were used to test the website:
 </details>
 
 
-14. As the site owner, I want users to get to know the restaurant
+11. As the site owner, I want users to access the site and learn more about the restaurant 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1361,7 +1356,7 @@ The following browsers were used to test the website:
 
 </details>
 
-15. As the site owner, I want users to find our contact details to contact us or contact us through contact form.
+12. As the site owner, I want users to find our contact details to contact us .
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
