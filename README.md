@@ -143,7 +143,9 @@
 
 
 -   Since Tavern is located on a sea coast, I added a lot of blue to the website.
+
 -   I tried to show how easy, calm, and relaxed the experience at Rhodes Restaurant is.
+
 -   I made the page simple for the user, so the user could take action by contacting the restaurant to book a table.
 
 ###  Fonts
@@ -153,9 +155,12 @@ During the design development, I used the following list of fonts: Lato, Oswald,
 <br>
 
 -   I use Lato as the default font for the **body** on all pages.
+
 -   Oswald is used for the logo.
+
 -   Arial font was used for **h2**, **p**, and **body** of the booking page.
- Sans-serif is used as a backup.
+
+-    Sans-serif is used as a backup.
 
 
 ###  Structure
