@@ -165,19 +165,17 @@ During the design development, I used the following list of fonts: Lato, Oswald,
 
 ###  Structure
 
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right.
+The page is organized in a way that is familiar to the end user. When a user opens a landing page, they can see a classical navigation bar with the logo on the left-hand side and the navigation links on the right-hand side.
 
-The website consists of five separate pages:
+The website is composed of four distinct pages:
 
-- A homepage with a sections for News and Sunday Meal Offers
+-   A homepage containing a description of the restaurant and showcasing its beautiful surroundings.
 
-- An about page with the About Us and Meet the Chef
+-   A menu page.
 
-- A menu page
+-   A gallery page displaying images that capture the overall atmosphere of the restaurant.
 
-- A image gallery with images and video showcasing the general feel of the restaurant
-
-- A contact page with a contact form, a map and information about the bussines section
+-   A contact page that includes a Google Map, contact details of the restaurant, and a contact form.
 
 ###  Wireframes
 
