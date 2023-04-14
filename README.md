@@ -280,8 +280,11 @@ The website comprises four pages and <NUMBER> functionalities.
 ###  Contact Page
 
 Contact page has three section:
+
 a) Info Box.
+
 b) Google Map.
+
 c) Contact Form.
 
 
