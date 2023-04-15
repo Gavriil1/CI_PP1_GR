@@ -493,7 +493,7 @@ The following browsers were used to test the website:
 
 - Mozilla Firefox
 
-- Microsoft Egde (does not work)
+- Microsoft Egde
 
 ###  Testing user stories
 
