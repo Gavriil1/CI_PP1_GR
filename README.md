@@ -62,7 +62,6 @@
 
     1. [Media](#media)
     2. [Code](#code)
-    3. [Code](#code)
 
 
 
