@@ -14,14 +14,7 @@ body {
 }
 
 
-/* headings and logo */
-/*
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    letter-spacing: 4px; 
-    color: #252525;
-}
-*/
+
 #logo {
     float: left;
     font-size: 280%;
@@ -80,97 +73,6 @@ h1, h2 {
   display: none;
 }
 
-
-/* navigation links
-#menu {
-    font-size: 110%
-    letter-spacing: 4px;
-    
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 25px;
-    
-}
-
-menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px slid #3a3a3a;
-}
-
-.active {
-    border-bottom:1px solid #3a3a3a;
-}
-*/
-/* hero-image */
-/*
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-*/
-/*
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/Greek-food-and-fish-with-sea-views.avif) no-repeat center center;
-    
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-*/
-
-
-/* creates the level of zoom for hero image */
-/*
-@jetfranes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-*/
-/*
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom:30px;
-    right: 150px;
-
-    position:absolute;
-}
-*/
-
 /* footer */
 
 footer {
@@ -179,9 +81,6 @@ footer {
 
 .social-networks{
     text-align: center;
-    
-    
-
 }
 
 .social-networks > li {
@@ -255,40 +154,7 @@ footer {
     color: #111;
     line-height: 24px;
 }
-/*
-.wrapper {
-    width: 100%;
-    float: left;
-    clear:left;
-}
 
-
-
-.img-info {
-    width: 100%;
-}
-
-.img-info h2 {
-    padding: 0px 30px 20px;;
-    font-family: arial;
-    font-size: 50 px;
-    color: #111;
-    line-height: 24px;
-}
-
-.img-info p {
-    padding:0px 30px 20px;
-    font-family: arial;
-    font-size: 16 px;
-    color: #111;
-    line-height: 24px;
-}
-
-.img-me {
-    width: 100%;
-    padding-top: 30px;
-}
-*/
 
 #menu{
 		clear: left;
@@ -426,38 +292,7 @@ input[type=text], select, textarea {
 
 /* responsive design media queries */
 @media only screen and (min-width:768px) {
-/*
-     .wrapper {
-        width: 100%;
-        float: left;
-        clear:left;
-        
-        
-    }
 
-    .img-info h2 {
-
-
-        padding: 0px 30px 20px;;
-        font-family: arial;
-        font-size: 50 px;
-        color: #111;
-        line-height: 24px
-    }
-    
-    .img-info p {
-        padding:0px 30px 20px;
-        font-family: arial;
-        font-size: 16 px;
-         color: #111;
-         line-height: 24px;
-
-    }
-
-    .img-me {
-        padding-top: 30px;
-    }
-*/
 	#menu{
 		clear: left;
 		float: left;
@@ -517,53 +352,12 @@ input[type=text], select, textarea {
   }
 }
 
-
-
-
-
-
-
-
 @media only screen and (min-width:1000px) {
     #menu{
 		clear: none;
 		float: right;
 	}
 
-  /*
-  .wrapper {
-    width: 80%;
-    clear:both;
-    
-  }
-  .img-info  {
-    width: 50%;
-    float: right;
-   }
-  .img-me {
-    padding-top: 0px;
-    width: 50%;
-    float: left;
-    
-    
- }
-  
- .img-info h2 {
-    padding:20px 0px 0px 30px;
-    font-family: arial;
-    font-size: 50 px;
-    color: #111;
-    line-height: 24px
-    
-  }
-
-
-
-  .img-info p {
-    padding:20px 0px 0px 30px;
-
-  }
-*/
   /*menu page */
   .menu-page {
     font-size: 16px;
@@ -577,8 +371,8 @@ input[type=text], select, textarea {
     width: 125px;
     height: 125px;
   }
-
 }
+
 /* footer work */
 
 .divfooter {
