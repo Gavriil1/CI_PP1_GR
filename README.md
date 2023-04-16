@@ -2,7 +2,7 @@
 
 (Developer: Gabriel SP)
 
-
+![Mockup image](assets/images/amiresponsive/amiresponsive.png)
 
 [Live webpage](https://gavriil1.github.io/CI_PP1_GR/index.html)
 
