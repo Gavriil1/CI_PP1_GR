@@ -654,28 +654,28 @@ The following browsers were used to test the website:
 ##  Deployment
 
 ## Deployment
-The website was deployed using GitHub Pages by following these steps:
-1. In the GitHub repository navigate to the Settings tab
-2. On the left hand menu select Pages
+These steps were followed to deploy the website using GitHub Pages:
+1. Go to the Settings tab within the GitHub repository.
+2. Choose Pages from the menu located on the left hand side.
 3. Under "Build and deployment", under "Source", select GitHub Actions.
 4. After the webpage refreshes automaticaly you will see text: "Your site is live at https://gavriil1.github.io/CI_PP1_GR/"
 
 Please check the following link for more information: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-You can  fork the repository by following these steps:
-1. Go to the GitHub repository
+Follow these steps to fork the repository:
+1. Visit the GitHub repository.
 2. Click on "Fork button" in upper right hand corner
 
 Please check the following link for more information: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
-You can clone the repository by following these steps:
+Follow these steps to clone the repository:
 1. Go to the GitHub repository 
-2. Locate the Code button above the list of files and click it 
-3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+2. Find the "Code" button located above the file list and click on it.
+3. Choose whether you prefer to clone via HTTPS, SSH, or Github CLI, and then click on the copy button to copy the URL to your clipboard.
 4. Open Git Bash
-5. Change the current working directory to the one where you want the cloned directory
+5. Navigate to the directory where you would like to clone the directory and set it as the current working directory.
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7. Press Enter to create your local clone.
+7. Hit the Enter key to create your local clone.
 
 Please check the following link for more information: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
