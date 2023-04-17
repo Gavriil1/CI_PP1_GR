@@ -660,13 +660,13 @@ These steps were followed to deploy the website using GitHub Pages:
 3. Under "Build and deployment", under "Source", select GitHub Actions.
 4. After the webpage refreshes automaticaly you will see text: "Your site is live at https://gavriil1.github.io/CI_PP1_GR/"
 
-Please check the following link for more information: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+    Please check the following link for more information: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 Follow these steps to fork the repository:
 1. Visit the GitHub repository.
 2. Click on "Fork button" in upper right hand corner
 
-Please check the following link for more information: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+    Please check the following link for more information: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 Follow these steps to clone the repository:
 1. Go to the GitHub repository 
@@ -677,7 +677,7 @@ Follow these steps to clone the repository:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Hit the Enter key to create your local clone.
 
-Please check the following link for more information: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+    Please check the following link for more information: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ## Credits
 
