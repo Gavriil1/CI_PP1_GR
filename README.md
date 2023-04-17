@@ -206,6 +206,12 @@ The website is composed of four distinct pages:
 
 </details>
 
+<details><summary>404 Page</summary>
+
+<img src="docs/wireframes/404.png">
+
+</details>
+
 ##  Technologies Used
 
 ###  Languages
