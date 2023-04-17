@@ -383,3 +383,40 @@ input[type=text], select, textarea {
     clear:both;
     width:100%;
 }
+
+
+/* CSS of 404 page */
+
+.bodyfof {
+  font-family: serif;
+  margin: 0;
+  background-color: #9cc3d5;
+  text-align: center;
+  color: white;
+  user-select: none;
+  
+}
+.containerfof{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #5ca3dd93;
+}
+.h2fof{
+  font-size: 150px;
+  margin: 0;
+  text-shadow: 15px 5px 2px black;
+}
+.h3fof{
+  font-size: 40px;
+  margin: 20px;
+}
+.pfof{
+  font-size: 18px;
+  margin: 5px;
+}
+
+.pfof:last-of-type{
+  margin-bottom: 65px;
+}
