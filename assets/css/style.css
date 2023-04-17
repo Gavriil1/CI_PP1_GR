@@ -111,9 +111,8 @@ footer {
 
 
 /* html pages: home, restaurant menu, gallery, contact page, 404 page */
+
 /* home  page */
-
-
 .img-info h2 {
   padding: 0px 30px 20px;;
   font-family: arial;
@@ -220,11 +219,9 @@ footer {
 #photos > img {
     width: 100%;
 }
-
-
   
-  /* Contact page  */
-/* Style inputs */
+/* Contact page  */
+
 .bookbody {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -302,19 +299,55 @@ input[type=submit]:hover {
     }
   }
 
-/* responsive design media queries */
-/* complete media quiery */
-@media only screen and (min-width:768px) {
+/* 404 page */
 
-	#menu{
-		clear: left;
-		float: left;
- 
-        padding: 0 0px ;
-        margin: 0px 0px 0px 29px;
-        font-size: 10px ;
-	}
+.bodyfof {
+  font-family: serif;
+  margin: 0;
+  background-color: #9cc3d5;
+  text-align: center;
+  color: white;
+  user-select: none;
+  
 }
+.containerfof{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #5ca3dd93;
+}
+.h2fof{
+  font-size: 150px;
+  margin: 0;
+  text-shadow: 15px 5px 2px black;
+}
+.h3fof{
+  font-size: 40px;
+  margin: 20px;
+}
+.pfof{
+  font-size: 18px;
+  margin: 5px;
+}
+
+.pfof:last-of-type{
+  margin-bottom: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* menue of the header */
@@ -388,7 +421,19 @@ input[type=submit]:hover {
   }
 }
 
+/* responsive design media queries */
+/* complete media quiery */
+@media only screen and (min-width:768px) {
 
+	#menu{
+		clear: left;
+		float: left;
+ 
+        padding: 0 0px ;
+        margin: 0px 0px 0px 29px;
+        font-size: 10px ;
+	}
+}
 
 
 
