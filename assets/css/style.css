@@ -15,17 +15,18 @@ body {
 
 
 
+/* navigation bar,  footer  */
+/* navigation bar css */
+
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
 
-    font-family: Oswald, sans-serif;
-    letter-spacing: 4px; 
-    color: #252525;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 4px; 
+  color: #252525;
 }
-
-/* menue css */
 
 #menunav{
   background: #0082e6;
@@ -37,11 +38,13 @@ body {
   float: right;
   margin-right: 20px;
 }
+
 #menunav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
+
 #menunav ul li a{
   color: white;
   font-size: 17px;
@@ -49,6 +52,7 @@ body {
   border-radius: 3px;
   text-transform: uppercase;
 }
+
 .active.active{
   background: #1b9bff;
   transition: .5s;
@@ -59,7 +63,6 @@ body {
   transition: .5s;
 }
 
-
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -69,6 +72,7 @@ body {
   cursor: pointer;
   display: none;
 }
+
 #check{
   display: none;
 }
@@ -93,9 +97,119 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+/* footer work 
+
+.divfooter {
+    bottom: 0;
+    color: #707070;
+    left: 0;
+    position: relative;
+    clear:both;
+    width:100%;
+}
+*/
+
+
+/* html pages: home, restaurant menu, gallery, contact page, 404 page */
+/* home  page */
+
+
+.img-info h2 {
+  padding: 0px 30px 20px;;
+  font-family: arial;
+  color: #111;
+  line-height: 24px;
+}
+
+.img-info p {
+  padding:0px 30px 20px;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+/* Style the container/contact section */
+.containerhome {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  clear:both
+}
+
+/* Create two columns that float next to eachother */
+.columnhome {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.rowhome:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* menu page css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  clear:both
+}
+
+.menu-page {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
 
 /* gallery */
-
 #photos {
     clear:both;
     line-height: 0;
@@ -107,31 +221,71 @@ footer {
     width: 100%;
 }
 
-/* first page classes */
+
+  
+  /* Contact page  */
+/* Style inputs */
+.bookbody {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email]  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #835fe6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
 /* Style the container/contact section */
-.containerhome {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    clear:both
-  }
-  
-  /* Create two columns that float next to eachother */
-  .columnhome {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .rowhome:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+.container1 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  clear:both;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* responsive design (media queries) for home, menu, gallery, contact page */
+
+/* home page media query */
   @media screen and (max-width: 950px) {
     .columnhome {
       width: 100%;
@@ -139,150 +293,8 @@ footer {
     }
   }
 
-  .img-info h2 {
-    padding: 0px 30px 20px;;
-    font-family: arial;
-    
-    color: #111;
-    line-height: 24px;
-}
-
-.img-info p {
-    padding:0px 30px 20px;
-    font-family: arial;
-    font-size: 16px;
-    color: #111;
-    line-height: 24px;
-}
-
-
-#menu{
-		clear: left;
-		float: left;
-        
-        padding: 0 0px ;
-        margin: 0px 0px 0px 29px;
-        font-size: 10px ;
-	}
-
-/* menu page css */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5em;
-    clear:both
-  }
-  
-  .menu-page {
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-  }
-  
-  .menu-group-heading {
-    margin: 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ccc;
-  }
-  
-  .menu-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-    padding: 1.5em 0;
-  }
-  
-  .menu-item {
-    display: flex;
-  }
-  
-  .menu-item-image {
-    width: 80px;
-    height: 80px;
-    flex-shrink: 0;
-    object-fit: cover;
-    margin-right: 1.5em;
-  }
-  
-  .menu-item-text {
-    flex-grow: 1;
-  }
-  
-  .menu-item-heading {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-  }
-  
-  .menu-item-name {
-    margin-right: 1.5em;
-  }
-  
-  .menu-item-description {
-    line-height: 1.6;
-  }
-
-
-
-/* booking page classes */
-/* Style inputs */
-.bookbody {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=email]  {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #835fe6;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container1 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-    clear:both;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* complete media media query */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
@@ -291,6 +303,7 @@ input[type=text], select, textarea {
   }
 
 /* responsive design media queries */
+/* complete media quiery */
 @media only screen and (min-width:768px) {
 
 	#menu{
@@ -305,6 +318,7 @@ input[type=text], select, textarea {
 
 
 /* menue of the header */
+/* complete media quiery */
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
@@ -352,6 +366,7 @@ input[type=text], select, textarea {
   }
 }
 
+/* good media */
 @media only screen and (min-width:1000px) {
     #menu{
 		clear: none;
@@ -373,50 +388,20 @@ input[type=text], select, textarea {
   }
 }
 
-/* footer work */
-
-.divfooter {
-    bottom: 0;
-    color: #707070;
-    left: 0;
-    position: relative;
-    clear:both;
-    width:100%;
-}
 
 
-/* CSS of 404 page */
 
-.bodyfof {
-  font-family: serif;
-  margin: 0;
-  background-color: #9cc3d5;
-  text-align: center;
-  color: white;
-  user-select: none;
-  
-}
-.containerfof{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: #5ca3dd93;
-}
-.h2fof{
-  font-size: 150px;
-  margin: 0;
-  text-shadow: 15px 5px 2px black;
-}
-.h3fof{
-  font-size: 40px;
-  margin: 20px;
-}
-.pfof{
-  font-size: 18px;
-  margin: 5px;
-}
 
-.pfof:last-of-type{
-  margin-bottom: 65px;
-}
+
+
+/* check if you can delete it
+#menu{
+		clear: left;
+		float: left;
+        
+        padding: 0 0px ;
+        margin: 0px 0px 0px 29px;
+        font-size: 10px ;
+	}
+
+  */
