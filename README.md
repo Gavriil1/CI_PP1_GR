@@ -663,6 +663,7 @@ The website was deployed using GitHub Pages by following these steps:
 
 4. Once the webpage refreshes automatically, a ribbon will appear at the top: "Your site is published at https://gavriil1.github.io/CI_PP1_GR/index.html"
 
+## Credits
 
 ###  Media
 
