@@ -257,6 +257,8 @@ The website comprises four pages and <NUMBER> functionalities.
 
 - Consists of four icons: Facebook, Twitter, YouTube, Instagram. Each icon is linked to a hyperlink.
 
+User story: 9
+
 ![Footer](docs/features/footer.png)
 
 <!-- the last save -->
@@ -264,6 +266,8 @@ The website comprises four pages and <NUMBER> functionalities.
 ###  Home Page
 
 - Gives a description of the restaurant with a image of the dining area next to the sea. 
+
+User stories: 3, 11
 
 ![Home Page](docs/features/home-page.png)
 
@@ -275,6 +279,8 @@ The website comprises four pages and <NUMBER> functionalities.
 
 - Additionally, the menu includes pricing information for each item.
 
+User stories: 2, 7
+
 ![Menu](docs/features/menu-of-the-restaurant.png)
 
 ###  Image Gallery
@@ -282,6 +288,8 @@ The website comprises four pages and <NUMBER> functionalities.
 - Gallery section shows dishes, great view of the restaurant and user experience.
 
 - The pictures of the restaurant are presented in a grid layout.
+
+User Stories: 4
 
 ![Gallery](docs/features/gallery-page.png)
 
@@ -296,10 +304,13 @@ b) Google Map.
 
 c) Contact Form.
 
+User stories: 1, 5, 6, 8, 10, 12
 
 ###  Info Box
 
 The user is furnished with details about the restaurant such as its address, phone number, email, and the name of its proprietor.
+
+User stories: 5, 6, 12
 
 ![Info Box](docs/features/info-box.png)
 
@@ -310,11 +321,15 @@ The user is furnished with details about the restaurant such as its address, pho
 
 A way for users to send an email to a restaurant to book a table or leave feedback.
 
+User stories: 8, 12
+
 ![Contact Form](docs/features/contact-form.png)
 
 ###  Map
 
 Displays the restaurant's location using an embedded Google Map.
+
+User stories: 1, 10
 
 ![Map](docs/features/map.png)
 
