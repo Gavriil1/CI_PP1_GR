@@ -653,15 +653,31 @@ The following browsers were used to test the website:
 
 ##  Deployment
 
+## Deployment
 The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. Under "Build and deployment", under "Source", select GitHub Actions.
+4. After the webpage refreshes automaticaly you will see text: "Your site is live at https://gavriil1.github.io/CI_PP1_GR/"
 
-1. Go to the Settings tab of the GitHub repository.
+Please check the following link for more information: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-2. Select Pages from the menu on the left-hand side.
+You can  fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on "Fork button" in upper right hand corner
 
-3. Choose Branch: master as the source.
+Please check the following link for more information: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
-4. Once the webpage refreshes automatically, a ribbon will appear at the top: "Your site is published at https://gavriil1.github.io/CI_PP1_GR/index.html"
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+Please check the following link for more information: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ## Credits
 
