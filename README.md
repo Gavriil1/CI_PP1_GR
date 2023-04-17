@@ -651,6 +651,17 @@ The following browsers were used to test the website:
 <img src="docs/user-story-testing/US-2-9.png">
 </details>
 
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+
+| I had low performance on Gallery page | Fixed it by changing picture format to AVIF |
+| The homepage link remains highlighted even when visiting another page. | Added active class to the correct link on each html page. |
+| Pictures from the gallery and home page were not displayed on the Edge browser. | The grammar in the sentence is correct. It is in the past tense and it appears to be a complete thought.|
+| The footer was not at the bottom when viewed on phones. | Deleted the css attribute from body which was causing an issue. |
+
+
 ##  Deployment
 
 ## Deployment
