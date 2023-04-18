@@ -140,6 +140,8 @@
     
 12.  As the site owner, I want users to find our contact details to contact us .
 
+13. As the site owner, I want users to be redirected to the 404 page so that they can navigate back to the pages shown in the navigation bar
+
 ##  Design
 
 ###  Design Choices
@@ -333,6 +335,13 @@ User stories: 1, 10
 
 ![Map](docs/features/map.png)
 
+###  404 Page
+
+This page helps the user navigate to the home, menu, gallery, and contact pages when the user mistakenly enters the wrong URL.
+
+User story: 13
+
+![page404](docs/features/404page.png)
 
 ##  Validation
 
@@ -670,6 +679,18 @@ The following browsers were used to test the website:
 <img src="docs/user-story-testing/US-2-8.png">
 
 <img src="docs/user-story-testing/US-2-9.png">
+</details>
+
+13. As the site owner, I want users to be redirected to the 404 page so that they can navigate back to the pages shown in the navigation bar
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Page | user Enters wrong URL | User sees 404 page. On it he sees navigation bar on website and select the page he needs. | Works as expectd |
+
+<details><summary>Screenshots</summary>
+
+<img src="docs/user-story-testing/US-2-10.png">
+
 </details>
 
 ## Bugs
