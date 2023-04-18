@@ -457,6 +457,15 @@ While reviewing this particular page, we have identified a newly surfaced error 
 
 </details>
 
+<details><summary>404 Page</summary>
+
+There is a new warning on this page concerning the "Click here" text, but it has been identified as a false positive. Although a tool flagged it as not making sense, the text is actually meaningful within the context of the webpage.
+
+<img src="docs/accessibility/404-accessability-test.png">
+
+</details>
+
+
 ###  Performance
 
 The performance of the website was tested using Google Lighthouse.
