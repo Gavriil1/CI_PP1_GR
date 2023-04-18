@@ -279,26 +279,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
-
-/* responsive design (media queries) for home, menu, gallery, contact page */
-
-/* home page media query */
-  @media screen and (max-width: 950px) {
-    .columnhome {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  /* complete media media query */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
 /* 404 page */
 
 .bodyfof {
@@ -338,17 +318,24 @@ input[type=submit]:hover {
 
 
 
+/* responsive design (media queries) for home, menu, gallery, contact page */
 
+/* home page media query */
+  @media screen and (max-width: 950px) {
+    .columnhome {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 
-
-
-
-
-
-
-
-
-
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* complete media media query */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 
 /* menue of the header */
 /* complete media quiery */
@@ -436,17 +423,3 @@ input[type=submit]:hover {
 }
 
 
-
-
-
-/* check if you can delete it
-#menu{
-		clear: left;
-		float: left;
-        
-        padding: 0 0px ;
-        margin: 0px 0px 0px 29px;
-        font-size: 10px ;
-	}
-
-  */
