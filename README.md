@@ -521,6 +521,18 @@ Screenshot of Mobile performance of Contact page in Google Lighthouse.
 
 </details>
 
+<details><summary>404 Page</summary>
+
+Screenshot of Desktop performance of 404 page in Google Lighthouse.
+
+<img src="docs/performance/dekstop-404-performance.png">
+
+Screenshot of Mobile performance of 404 page in Google Lighthouse.
+
+<img src="docs/performance/mobile-404-performance.png">
+
+</details>
+
 ###  Performing tests on various devices
 
 Testing of the website was conducted on the following devices:
