@@ -377,6 +377,15 @@ Two errors have been identified on this page; however, after thorough investigat
 
 </details>
 
+</details>
+
+<details><summary>404-Page</summary>
+
+
+<img src="docs/validation/404-page-validation.png">
+
+</details>
+
 ###  CSS Validation
 
 The CSS of the website was validated using the W3C Jigsaw CSS Validation Service, which yielded no errors.
