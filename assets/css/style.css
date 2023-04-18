@@ -316,29 +316,9 @@ input[type=submit]:hover {
 }
 
 
+/* responsive design (media queries) for Navigation Bar,  home, menu, gallery, contact page */
 
-
-/* responsive design (media queries) for home, menu, gallery, contact page */
-
-/* home page media query */
-  @media screen and (max-width: 950px) {
-    .columnhome {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  /* complete media media query */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-/* menue of the header */
-/* complete media quiery */
+/* Navigation BAR media query: Start */
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
@@ -385,8 +365,27 @@ input[type=submit]:hover {
     left: 0;
   }
 }
+/* Navigation BAR media query: end */
 
-/* good media */
+/* home page media query  Start */
+  @media screen and (max-width: 950px) {
+    .columnhome {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  /* home page media query  End */
+
+
+
+/* Restaurant Menu Media query: Start */
 @media only screen and (min-width:1000px) {
     #menu{
 		clear: none;
@@ -408,8 +407,6 @@ input[type=submit]:hover {
   }
 }
 
-/* responsive design media queries */
-/* complete media quiery */
 @media only screen and (min-width:768px) {
 
 	#menu{
@@ -421,5 +418,5 @@ input[type=submit]:hover {
         font-size: 10px ;
 	}
 }
-
+/* Restaurant Menu Media query: End */
 
