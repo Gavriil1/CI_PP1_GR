@@ -58,10 +58,14 @@
 
     7. [Testing user stories](#testing-user-stories)
 
-7. [Deployment](#deployment)
+7. [Bugs](#Bugs)
+
+8. [Deployment](#deployment)
 
     1. [Media](#media)
     2. [Code](#code)
+
+9. [Credits](#credits)
 
 
 
