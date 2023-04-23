@@ -75,7 +75,7 @@
 
 ###  User Goals
 
--   Discovering a restaurant that provides both a pleasant ambiance and delicious cuisine.
+-   Discovering a restaurant that provides both a pleasant ambiance and delicious cuisine..
 
 -   Accessing a comprehensive menu that displays pricing in a clear and concise manner.
 
